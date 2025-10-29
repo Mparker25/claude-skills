@@ -1,8 +1,8 @@
-# Claude Skills Library - Enhanced Fork
+# Claude Startup Starter Kit
 
-**Production-Ready skill packages for Claude AI & Claude Code** - Reusable expertise bundles combining best practices, analysis tools, and strategic frameworks for marketing teams, executive leadership, product development, your web and mobile engineering teams. Many other teams will be included soon and regularly.
+**Complete AI-powered startup toolkits with domain expert agents** - Launch faster, execute better. Get 10 domain expert agents (CMO, VP Eng, Head of Product, etc.) coordinating 42 specialized skills with 97 automation tools. It's like having your entire executive team on day one.
 
-> **Fork Notice:** This is a maintained and enhanced fork of the [original Claude Skills Library](https://github.com/alirezarezvani/claude-skills) by Alireza Rezvani (MIT License). This fork includes improvements, additional documentation, and active maintenance by Malik Bernard Parker.
+> **Fork Notice:** This is a maintained and enhanced fork of the [original Claude Skills Library](https://github.com/alirezarezvani/claude-skills) by Alireza Rezvani (MIT License). Transformed into a complete startup toolkit with domain agents by Malik Bernard Parker.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude AI](https://img.shields.io/badge/Claude-AI-blue.svg)](https://claude.ai)
@@ -12,42 +12,105 @@
 
 ## 📚 Table of Contents
 
-- [Overview](#-overview)
-- [Plugin Marketplace Installation](#-plugin-marketplace-installation)
-- [Available Skills](#-available-skills)
+- [Why This Exists](#-why-this-exists)
+- [What You Get](#-what-you-get)
+- [Domain Expert Agents](#-domain-expert-agents)
+- [Installation](#-installation)
+- [How to Use Agents](#-how-to-use-agents)
+- [Complete Toolkit Reference](#-complete-toolkit-reference)
 - [Quick Start](#-quick-start)
-- [How to Use with Claude AI](#-how-to-use-with-claude-ai)
+- [Working with Domain Agents](#-working-with-domain-agents)
 - [How to Use with Claude Code](#-how-to-use-with-claude-code)
 - [Skill Architecture](#-skill-architecture)
-- [Installation](#-installation)
 - [Usage Examples](#-usage-examples)
 - [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
 - [License](#-license)
-- [Author](#-author)
+- [Maintainer](#-maintainer)
 
 ---
 
-## 🎯 Overview
+## 🚀 Why This Exists
 
-This repository provides **modular, self-contained skill packages** designed to augment Claude AI with specialized domain expertise. Each skill includes:
+Starting a company is hard. You need expertise in marketing, engineering, product, compliance, and more - but can't hire specialists for everything.
 
-- **📖 Comprehensive documentation** - Workflows, best practices, and strategic frameworks
-- **🛠️ Python analysis tools** - CLI utilities for automated analysis and optimization
-- **📚 Knowledge bases** - Curated reference materials and guidelines
-- **📋 Ready-to-use templates** - Customizable assets for immediate deployment
+**Claude Startup Starter Kit gives you a complete team of AI domain experts** with production-ready skills and automation tools. It's like having 10 senior leaders on your startup's board, available 24/7.
 
-**Key Benefits:**
-- ⚡ **Immediate deployment** - Download and use in minutes
-- 🎯 **Domain expertise** - Battle-tested frameworks from industry experts
-- 🔧 **Practical tools** - Algorithmic analysis without external API dependencies
-- 📈 **Measurable ROI** - 40%+ time savings, 30%+ quality improvements
+### The Problem
+- Early-stage startups can't afford specialists in every domain
+- Solo founders wear too many hats
+- Generic AI doesn't have domain-specific frameworks and tools
+- Building processes from scratch wastes time
+
+### The Solution
+- **10 domain expert agents** that know your function deeply
+- **42 specialized skills** with proven frameworks
+- **97 Python automation tools** for analysis and execution
+- **Agent coordination** for complex, multi-skill workflows
 
 ---
 
-## 🔌 Plugin Marketplace Installation
+## 🎁 What You Get
 
-**NEW:** This repository is now a Claude Code plugin marketplace! Install skills directly through Claude Code's plugin system.
+### 10 Domain Expert Agents
+Complete executive team that coordinates specialized skills:
+
+| Agent | Role | Skills Managed |
+|-------|------|----------------|
+| **@marketing-strategist** | Your CMO | Content, demand gen, product marketing |
+| **@executive-advisor** | C-Suite advisor | CEO + CTO combined expertise |
+| **@product-lead** | Head of Product | PM, agile, product strategy |
+| **@design-director** | Head of Design | UX research, UI design systems |
+| **@delivery-manager** | VP of Delivery | PM, Scrum, Jira, Confluence |
+| **@engineering-lead** | VP of Engineering | Architecture, fullstack, DevOps, security |
+| **@data-science-lead** | Head of AI/ML/Data | Data science, ML, prompt eng, CV |
+| **@regulatory-director** | Head of Regulatory | MDR, FDA, ISO 14971 risk mgmt |
+| **@quality-director** | Head of Quality | ISO 13485, CAPA, ISO 27001 |
+| **@compliance-officer** | Chief Compliance | QMS/ISMS audit, GDPR |
+
+### 42 Specialized Skills
+Task-specific expertise in every domain (full list below)
+
+### 97 Python Automation Tools
+Production-ready analysis and generation scripts
+
+### Complete Frameworks
+Battle-tested playbooks, templates, and methodologies
+
+---
+
+## 🤖 Domain Expert Agents
+
+**What are domain agents?**
+
+Domain agents are AI specialists that coordinate multiple skills within their expertise area. Instead of manually invoking individual skills, you work with domain experts who intelligently select and coordinate the right skills for your goal.
+
+**Example: Marketing Strategist Agent**
+
+```
+You: "@marketing-strategist help me launch our new SaaS product"
+
+Agent coordinates:
+1. Product Marketing skill → Creates positioning and messaging
+2. Content Creator skill → Writes launch blog post (SEO optimized)
+3. Demand Generation skill → Sets up paid campaigns
+
+Result: Complete product launch strategy with content and distribution
+```
+
+**Why agents matter:**
+- 🎯 **Intelligent coordination** - Agents know which skills to use when
+- 🔄 **Multi-skill workflows** - Complex tasks need multiple skills
+- 📊 **Context management** - Agents maintain context across skills
+- 💡 **Expert guidance** - Get strategic advice, not just task execution
+
+**All 10 agents available** - See [How to Use Agents](#-how-to-use-agents) section below.
+
+---
+
+## 🔌 Installation
+
+Get your complete startup toolkit in seconds.
 
 ### Quick Installation
 
@@ -55,27 +118,33 @@ This repository provides **modular, self-contained skill packages** designed to 
 # Add the marketplace
 /plugin marketplace add Mparker25/claude-skills
 
-# Browse available plugins
-/plugin
-
-# Install specific plugin collection
+# Install domain expert agents + skills
 /plugin install marketing@mparker-claude-skills
 /plugin install core-engineering@mparker-claude-skills
 /plugin install product-management@mparker-claude-skills
+
+# Start using agents immediately
+@marketing-strategist help me launch our product
+@engineering-lead review our architecture
+@product-lead prioritize Q1 features
 ```
 
-### Available Plugin Collections
+### Available Toolkits (10 Domain Agents + 42 Skills)
 
-- **marketing** (3 skills) - Content, demand generation, product marketing
-- **executive-advisory** (2 skills) - CEO and CTO strategic advisory
-- **product-management** (3 skills) - PM, agile product owner, product strategist
-- **ux-design** (2 skills) - UX research, UI design systems
-- **project-management** (6 skills) - PM, Scrum Master, Jira, Confluence, Atlassian
-- **core-engineering** (9 skills) - Architecture, frontend, backend, fullstack, QA, DevOps, security
-- **ai-ml-data-engineering** (5 skills) - Data science, ML engineering, prompt engineering, computer vision
-- **regulatory-affairs** (4 skills) - RA management, MDR, FDA, risk management
-- **quality-management** (5 skills) - QMR, ISO 13485, CAPA, documentation, ISO 27001
-- **audit-compliance** (3 skills) - QMS audit, ISMS audit, GDPR/DSGVO
+Each toolkit includes a domain expert agent that coordinates specialized skills:
+
+| Toolkit | Agent | Skills | Best For |
+|---------|-------|--------|----------|
+| **marketing** | @marketing-strategist | 3 skills | Product launches, content, campaigns |
+| **executive-advisory** | @executive-advisor | 2 skills | Strategic planning, board governance |
+| **product-management** | @product-lead | 3 skills | Roadmapping, prioritization, OKRs |
+| **ux-design** | @design-director | 2 skills | User research, design systems |
+| **project-management** | @delivery-manager | 6 skills | Agile delivery, Jira, Confluence |
+| **core-engineering** | @engineering-lead | 9 skills | Architecture, development, QA |
+| **ai-ml-data-engineering** | @data-science-lead | 5 skills | Data pipelines, ML, AI agents |
+| **regulatory-affairs** | @regulatory-director | 4 skills | MDR, FDA, risk management |
+| **quality-management** | @quality-director | 5 skills | ISO 13485, CAPA, ISO 27001 |
+| **audit-compliance** | @compliance-officer | 3 skills | QMS audit, ISMS audit, GDPR |
 
 📖 **Detailed marketplace documentation:** [MARKETPLACE.md](MARKETPLACE.md)
 
@@ -99,11 +168,234 @@ Add to `.claude/settings.json` for automatic installation:
 
 ---
 
-## 🚀 Available Skills
+## 🤖 How to Use Agents
 
-### Marketing Skills
+Domain expert agents coordinate multiple skills to complete complex workflows. Instead of manually chaining skills, you work with agents who know which skills to use and when.
 
-**3 comprehensive marketing skills** covering content creation, demand generation, and product marketing strategy.
+### Basic Agent Usage
+
+```bash
+# Invoke an agent
+@marketing-strategist help me with [your goal]
+
+# Examples
+@marketing-strategist launch our new SaaS product
+@engineering-lead review our microservices architecture
+@product-lead prioritize Q2 roadmap with RICE framework
+@design-director create a design system from our brand
+```
+
+### Agent Workflows by Domain
+
+#### 🎨 Marketing Strategist (@marketing-strategist)
+**Coordinates:** Content Creator, Demand Generation, Product Marketing
+
+**Example Workflows:**
+```
+Product Launch:
+1. @marketing-strategist launch our new AI analytics platform
+   → Creates positioning strategy
+   → Writes launch content (blog, social, email)
+   → Sets up demand generation campaigns
+   → Defines success metrics
+
+Content Strategy:
+1. @marketing-strategist build a content strategy for Q1
+   → Analyzes brand voice
+   → Creates content calendar
+   → Optimizes for SEO
+   → Plans social distribution
+```
+
+#### 💼 Executive Advisor (@executive-advisor)
+**Coordinates:** CEO Advisor, CTO Advisor
+
+**Example Workflows:**
+```
+Strategic Planning:
+1. @executive-advisor help us plan Q2 OKRs
+   → Reviews business goals (CEO perspective)
+   → Assesses technical capacity (CTO perspective)
+   → Creates aligned OKRs
+   → Defines success metrics
+
+Architecture Decision:
+1. @executive-advisor should we use microservices or monolith?
+   → Analyzes business requirements
+   → Evaluates technical trade-offs
+   → Provides recommendation with rationale
+```
+
+#### 📊 Product Lead (@product-lead)
+**Coordinates:** Product Manager, Agile Product Owner, Product Strategist
+
+**Example Workflows:**
+```
+Feature Prioritization:
+1. @product-lead prioritize Q2 roadmap
+   → Runs RICE scoring
+   → Aligns with OKRs
+   → Creates sprint plan
+   → Defines acceptance criteria
+
+Customer Research:
+1. @product-lead analyze our customer interviews
+   → Extracts pain points
+   → Identifies feature requests
+   → Generates user stories
+   → Prioritizes opportunities
+```
+
+#### 🎨 Design Director (@design-director)
+**Coordinates:** UX Researcher Designer, UI Design System
+
+**Example Workflows:**
+```
+Design System:
+1. @design-director create a design system for our brand
+   → Generates design tokens from brand color
+   → Creates component library
+   → Documents usage guidelines
+   → Exports for development
+
+User Research:
+1. @design-director who are our users?
+   → Analyzes research data
+   → Creates user personas
+   → Maps user journeys
+   → Identifies UX opportunities
+```
+
+#### 📋 Delivery Manager (@delivery-manager)
+**Coordinates:** Senior PM, Scrum Master, Jira Expert, Confluence Expert, Atlassian Admin
+
+**Example Workflows:**
+```
+Sprint Planning:
+1. @delivery-manager plan our next sprint
+   → Reviews backlog
+   → Estimates capacity
+   → Creates sprint goals
+   → Configures Jira board
+
+Agile Setup:
+1. @delivery-manager setup agile workflow in Jira
+   → Configures project
+   → Sets up board and workflows
+   → Creates templates
+   → Documents processes in Confluence
+```
+
+#### 💻 Engineering Lead (@engineering-lead)
+**Coordinates:** Architect, Frontend, Backend, Fullstack, QA, DevOps, SecOps, Code Review, Security
+
+**Example Workflows:**
+```
+Architecture Review:
+1. @engineering-lead review our system architecture
+   → Evaluates scalability
+   → Identifies bottlenecks
+   → Recommends improvements
+   → Creates migration plan
+
+Code Quality:
+1. @engineering-lead analyze code quality
+   → Runs security scan
+   → Checks test coverage
+   → Reviews documentation
+   → Provides recommendations
+```
+
+#### 📈 Data Science Lead (@data-science-lead)
+**Coordinates:** Data Scientist, Data Engineer, ML Engineer, Prompt Engineer, Computer Vision
+
+**Example Workflows:**
+```
+ML Pipeline:
+1. @data-science-lead build ML model deployment pipeline
+   → Designs data pipeline
+   → Trains and validates model
+   → Sets up MLOps infrastructure
+   → Deploys to production
+
+RAG System:
+1. @data-science-lead build a RAG system for our docs
+   → Designs retrieval strategy
+   → Optimizes prompts
+   → Builds agent orchestration
+   → Implements monitoring
+```
+
+#### 🏥 Regulatory Director (@regulatory-director)
+**Coordinates:** RA Manager, MDR Specialist, FDA Consultant, Risk Management Specialist
+
+**Example Workflows:**
+```
+MDR Compliance:
+1. @regulatory-director prepare for EU MDR certification
+   → Creates technical documentation
+   → Conducts risk management
+   → Prepares clinical evaluation
+   → Submits to notified body
+
+FDA Submission:
+1. @regulatory-director prepare 510(k) submission
+   → Identifies predicate device
+   → Creates submission package
+   → Manages FDA correspondence
+```
+
+#### ✅ Quality Director (@quality-director)
+**Coordinates:** Quality Manager, QMS ISO 13485, CAPA Officer, Documentation Manager, ISMS ISO 27001
+
+**Example Workflows:**
+```
+QMS Setup:
+1. @quality-director setup ISO 13485 QMS
+   → Creates quality manual
+   → Defines processes and SOPs
+   → Sets up document control
+   → Plans internal audits
+
+CAPA Management:
+1. @quality-director manage nonconformance from audit
+   → Documents CAPA
+   → Investigates root cause
+   → Implements corrective actions
+   → Verifies effectiveness
+```
+
+#### 🔍 Compliance Officer (@compliance-officer)
+**Coordinates:** QMS Audit Expert, ISMS Audit Expert, GDPR/DSGVO Expert
+
+**Example Workflows:**
+```
+Internal Audit:
+1. @compliance-officer conduct QMS internal audit
+   → Plans audit schedule
+   → Executes audit
+   → Documents findings
+   → Tracks CAPAs to closure
+
+GDPR Compliance:
+1. @compliance-officer assess GDPR compliance
+   → Reviews data processing
+   → Verifies legal basis
+   → Checks data subject rights
+   → Recommends improvements
+```
+
+---
+
+## 📚 Complete Toolkit Reference
+
+Each domain agent coordinates specialized skills with automation tools. Below is the complete reference of all 42 skills.
+
+### Marketing Toolkit (3 Skills)
+
+**Agent:** @marketing-strategist
+
+**Skills:**
 
 #### 📝 Content Creator
 **Status:** ✅ Production Ready | **Version:** 1.0
@@ -882,175 +1174,193 @@ EU GDPR and German DSGVO compliance and auditing.
 
 ## ⚡ Quick Start
 
-### For Claude AI Users
+### Get Your AI Team in 3 Steps
 
-1. **Download** the skill package you need (or clone this repository)
-2. **Upload** the SKILL.md file to your Claude conversation
-3. **Reference** the skill: "Using the content-creator skill, help me write a LinkedIn post about AI"
+**Step 1: Add Marketplace**
+```bash
+/plugin marketplace add Mparker25/claude-skills
+```
 
-### For Claude Code Users
+**Step 2: Install Your Domain**
+```bash
+# Install what you need
+/plugin install marketing@mparker-claude-skills
+/plugin install core-engineering@mparker-claude-skills
+/plugin install product-management@mparker-claude-skills
+```
 
-1. **Clone** this repository into your project
-2. **Load** the skill in your Claude Code session
-3. **Execute** workflows and run analysis tools directly
+**Step 3: Use Your Agents**
+```bash
+# Product launch
+@marketing-strategist launch our new SaaS product
+
+# Feature prioritization
+@product-lead prioritize Q2 roadmap with RICE
+
+# Code review
+@engineering-lead review our authentication system
+
+# Design system
+@design-director create design tokens from #0066CC
+```
+
+**That's it!** Your domain expert agents are ready to work.
 
 ---
 
-## 🤖 How to Use with Claude AI
+## 🤖 Working with Domain Agents
 
-Claude AI can use these skills to provide specialized expertise in your conversations.
+Domain expert agents make complex workflows simple. Instead of manually selecting skills, you work with specialized agents who coordinate the right tools automatically.
 
-### Method 1: Upload Skill Documentation
+### Agent-First Approach
 
-**Step-by-Step:**
-
-1. **Navigate to the skill folder** you want to use (e.g., `marketing-skill/content-creator/`)
-
-2. **Upload the SKILL.md file** to your Claude conversation:
-   - Click the attachment icon 📎
-   - Select `SKILL.md` from the skill folder
-   - Upload to the conversation
-
-3. **Reference the skill in your prompts:**
-   ```
-   Using the content-creator skill, help me:
-   - Write a blog post about sustainable technology
-   - Analyze my brand voice from these 3 articles
-   - Create a LinkedIn content calendar for November 2025
-   ```
-
-4. **Access reference materials as needed:**
-   - Upload specific reference files (e.g., `references/content_frameworks.md`)
-   - Claude will use the frameworks to guide content creation
-
-### Method 2: Use Packaged .zip Archives
-
-For easy sharing with your team:
-
-1. **Download** the pre-packaged .zip file (e.g., `content-creator.zip`)
-2. **Extract** to your local machine
-3. **Upload SKILL.md** to Claude as described above
-
-### Example Prompts
-
-**Content Creator Skill:**
+**Traditional Skill Usage (Manual):**
 ```
-Using the content-creator skill:
-1. Analyze this article for brand voice consistency
-2. Optimize this blog post for the keyword "marketing automation"
-3. Create a 30-day LinkedIn content calendar for our product launch
-4. Write a Twitter thread explaining our new feature
+1. Upload content-creator SKILL.md
+2. Upload marketing-demand-acquisition SKILL.md
+3. Upload marketing-strategy-pmm SKILL.md
+4. Manually coordinate between skills
+5. Figure out which tool to use when
 ```
 
-**CEO Advisor Skill:**
+**Agent Approach (Intelligent):**
 ```
-Using the ceo-advisor skill:
-1. Help me evaluate our product expansion strategy
-2. Create a board presentation for Q4 results
-3. Model financial scenarios for hiring 10 new salespeople
-4. Draft investor update email for our Series A round
+@marketing-strategist launch our new SaaS product
+
+→ Agent automatically:
+  - Selects product marketing skill for positioning
+  - Uses content creator for launch content
+  - Applies demand generation for campaigns
+  - Coordinates all tools intelligently
 ```
 
-**CTO Advisor Skill:**
+### Example Agent Requests
+
+**Marketing Strategy:**
 ```
-Using the cto-advisor skill:
-1. Analyze our technical debt and create a reduction roadmap
-2. Calculate optimal team structure for scaling to 50 engineers
-3. Evaluate whether we should adopt GraphQL or stick with REST
-4. Create an ADR for our microservices migration decision
+@marketing-strategist help me:
+- Launch our new AI analytics platform
+- Build a content strategy for Q1 2025
+- Set up demand generation campaigns with $50k budget
+- Create a LinkedIn content calendar
 ```
 
-**Product Manager Toolkit:**
+**Product Management:**
 ```
-Using the product-manager-toolkit skill:
-1. Prioritize our backlog of 50 features using RICE scoring
-2. Analyze customer interview transcripts to extract pain points
-3. Create a PRD for our new analytics dashboard feature
-4. Design a customer discovery interview guide for B2B users
-```
-
-**Agile Product Owner:**
-```
-Using the agile-product-owner skill:
-1. Generate user stories for our mobile app redesign epic
-2. Plan next sprint with 30 story points capacity
-3. Create acceptance criteria for authentication feature
-4. Analyze our velocity trends over last 6 sprints
+@product-lead help me:
+- Prioritize our backlog of 50 features using RICE
+- Analyze customer interview transcripts
+- Plan Q2 roadmap with 30 person-weeks capacity
+- Generate user stories for authentication epic
 ```
 
-**Product Strategist:**
+**Engineering Leadership:**
 ```
-Using the product-strategist skill:
-1. Generate OKR cascade from company goals to team level
-2. Create product vision and positioning for new market
-3. Design quarterly roadmap with strategic themes
-4. Plan product team scaling from 5 to 20 people
-```
-
-**UX Researcher Designer:**
-```
-Using the ux-researcher-designer skill:
-1. Create data-driven personas from 20 user interviews
-2. Map customer journey for onboarding experience
-3. Design usability test protocol for checkout flow
-4. Synthesize research findings into actionable insights
+@engineering-lead help me:
+- Review our microservices architecture
+- Analyze code quality and security vulnerabilities
+- Set up CI/CD pipeline for Next.js app
+- Conduct code review for authentication PR
 ```
 
-**UI Design System:**
+**Design Systems:**
 ```
-Using the ui-design-system skill:
-1. Generate complete design token system from brand color #0066CC
-2. Create component library architecture using atomic design
-3. Define responsive breakpoints and grid system
-4. Export design tokens as CSS variables for developers
-```
-
-**Fullstack Engineer:**
-```
-Using the fullstack-engineer skill:
-1. Scaffold a new Next.js + GraphQL + PostgreSQL project
-2. Analyze code quality and security vulnerabilities in existing project
-3. Implement clean architecture patterns for backend API
-4. Set up CI/CD pipeline with GitHub Actions and Docker
+@design-director help me:
+- Create a complete design system from brand color #0066CC
+- Generate user personas from research data
+- Design responsive component library
+- Map user journey for onboarding flow
 ```
 
-### Tips for Best Results
+**Executive Decision-Making:**
+```
+@executive-advisor help me:
+- Should we use microservices or monolith?
+- Set company OKRs for Q2 2025
+- Model financial scenarios for team scaling
+- Create board presentation for Series A update
+```
+
+**Regulatory & Compliance:**
+```
+@regulatory-director prepare EU MDR certification
+@quality-director setup ISO 13485 QMS
+@compliance-officer conduct internal QMS audit
+```
+
+### Fallback: Manual Skill Usage
+
+If you prefer working with individual skills directly:
+
+1. **Upload agent file** (e.g., `.claude/agents/marketing-strategist.md`)
+2. **Reference specific skills** from the agent's toolkit
+3. **Upload SKILL.md files** as needed for detailed workflows
+
+See [Complete Toolkit Reference](#-complete-toolkit-reference) for all 42 skills.
+
+### Tips for Best Results with Agents
 
 ✅ **DO:**
-- Reference the skill name explicitly in your prompts
-- Upload relevant reference materials for complex tasks
-- Ask Claude to use specific frameworks or templates from the skill
-- Provide context about your industry, audience, or constraints
+- Be specific about your goal (agents coordinate multiple skills for you)
+- Provide context about your industry, stage, or constraints
+- Ask agents for their expert opinion and recommendations
+- Let agents choose which skills to use (they know the toolkit)
 
 ❌ **DON'T:**
-- Assume Claude remembers the skill across different conversations (re-upload if needed)
-- Mix too many skills in one conversation (focus on one domain at a time)
-- Skip uploading the SKILL.md file (it contains essential workflows)
+- Micromanage which skills to use (trust the agent's expertise)
+- Mix multiple domain agents in one request (one agent per workflow)
+- Forget to specify constraints (budget, timeline, team size, etc.)
 
 ---
 
 ## 💻 How to Use with Claude Code
 
-Claude Code can execute the Python analysis tools and integrate skills into your development workflow.
+Claude Code users get the full power of domain expert agents plus executable Python automation tools.
 
-### Setup
+### Plugin Marketplace Installation (Recommended)
 
-1. **Clone this repository** into your project or workspace:
+Use the Claude Code plugin marketplace for instant installation:
+
+```bash
+# Add marketplace
+/plugin marketplace add Mparker25/claude-skills
+
+# Install domain toolkits
+/plugin install marketing@mparker-claude-skills
+/plugin install core-engineering@mparker-claude-skills
+/plugin install product-management@mparker-claude-skills
+
+# Use agents immediately
+@marketing-strategist launch our product
+@engineering-lead review our architecture
+```
+
+**Benefits:**
+- ✅ Instant agent access in Claude Code sessions
+- ✅ Automatic updates when new versions release
+- ✅ No manual file management
+- ✅ Clean integration with Claude Code workflows
+
+### Manual Installation (Advanced)
+
+For custom setups or offline development:
+
+1. **Clone this repository**:
    ```bash
    git clone https://github.com/Mparker25/claude-skills.git
    cd claude-skills
    ```
 
-2. **Install Python dependencies** (if needed):
+2. **Install Python dependencies** (optional):
    ```bash
    # Most scripts use standard library only
    pip install pyyaml  # Optional, for future features
    ```
 
-3. **Verify installation**:
+3. **Verify agents**:
    ```bash
-   python marketing-skill/content-creator/scripts/brand_voice_analyzer.py --help
-   python marketing-skill/content-creator/scripts/seo_optimizer.py --help
+   ls .claude/agents/
+   # Should show: marketing-strategist.md, engineering-lead.md, etc.
    ```
 
 ### Using Analysis Tools
