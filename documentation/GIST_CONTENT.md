@@ -3,7 +3,7 @@
 > **The most comprehensive Claude AI skills repository** with 42 production-ready expert skills across 6 professional domains, featuring 97 Python automation tools and complete frameworks for Marketing, Engineering, Product, Project Management, C-Level Leadership, and Regulatory Affairs.
 
 **Repository:** https://github.com/alirezarezvani/claude-skills
-**Author:** [Alireza Rezvani](https://alirezarezvani.com) | [@alirezarezvani](https://medium.com/@alirezarezvani)
+**Author:** [Alireza Rezvani](https://github.com/Mparker25) | [@alirezarezvani](https://medium.com/@alirezarezvani)
 **License:** MIT
 **Status:** Production Ready | 42 Skills | 6 Domains | $20.8M Annual ROI Potential
 
@@ -295,7 +295,7 @@ A Claude Skill is a modular package of instructions, scripts, and resources that
 - Pull Requests - Contributions welcome
 
 **Contact:**
-- Website: [alirezarezvani.com](https://alirezarezvani.com)
+- Website: [github.com/Mparker25](https://github.com/Mparker25)
 - Blog: [medium.com/@alirezarezvani](https://medium.com/@alirezarezvani)
 
 ---
@@ -675,7 +675,7 @@ Content creation, demand generation, product launches, sprint planning, code rev
 **License:** MIT - Free for commercial use
 **Support:** GitHub Issues, Discussions, and direct contact
 
-**Author:** [Alireza Rezvani](https://alirezarezvani.com) - [Blog](https://medium.com/@alirezarezvani)
+**Author:** [Alireza Rezvani](https://github.com/Mparker25) - [Blog](https://medium.com/@alirezarezvani)
 
 **Related Projects:**
 - [Skill Factory](https://github.com/alirezarezvani/claude-code-skill-factory) - Generate custom skills
@@ -829,7 +829,7 @@ A: Claude Skills Library includes domain-specific skills: content-creator for ma
 **Contributing:** See CONTRIBUTING.md in repository
 
 **Author:**
-- Website: https://alirezarezvani.com
+- Website: https://github.com/Mparker25
 - Blog: https://medium.com/@alirezarezvani
 - LinkedIn: Connect for updates on Claude AI and skills development
 

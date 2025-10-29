@@ -56,7 +56,7 @@ git clone https://github.com/YOUR_USERNAME/claude-skills.git
 cd claude-skills
 
 # Add upstream remote
-git remote add upstream https://github.com/alirezarezvani/claude-skills.git
+git remote add upstream https://github.com/Mparker25/claude-skills.git
 ```
 
 ### Create a Branch
@@ -394,10 +394,10 @@ Expected behavior:
 
 ## 📞 Questions?
 
-- **General Questions:** Open a [discussion](https://github.com/alirezarezvani/claude-skills/discussions)
-- **Bug Reports:** Use [bug report template](https://github.com/alirezarezvani/claude-skills/issues/new?template=bug_report.md)
-- **Feature Ideas:** Use [feature request template](https://github.com/alirezarezvani/claude-skills/issues/new?template=feature_request.md)
-- **Contact:** [alirezarezvani.com](https://alirezarezvani.com) or [medium.com/@alirezarezvani](https://medium.com/@alirezarezvani)
+- **General Questions:** Open a [discussion](https://github.com/Mparker25/claude-skills/discussions)
+- **Bug Reports:** Use [bug report template](https://github.com/Mparker25/claude-skills/issues/new?template=bug_report.md)
+- **Feature Ideas:** Use [feature request template](https://github.com/Mparker25/claude-skills/issues/new?template=feature_request.md)
+- **Contact:** [github.com/Mparker25](https://github.com/Mparker25) or [medium.com/@alirezarezvani](https://medium.com/@alirezarezvani)
 
 ---
 

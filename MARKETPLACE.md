@@ -1,8 +1,10 @@
-# Claude Skills Marketplace
+# Claude Skills Marketplace - Enhanced Fork
 
 > Production-ready skill packages for Claude AI - 42 expert skills across marketing, engineering, product, compliance, and leadership domains.
 
 This repository is a Claude Code plugin marketplace containing 10 granular plugin collections, each focused on specific professional domains and use cases.
+
+> **Fork Notice:** This is a maintained fork of the [original Claude Skills Library](https://github.com/alirezarezvani/claude-skills) by Alireza Rezvani (MIT License). Maintained by Malik Bernard Parker.
 
 ## Quick Start
 
@@ -10,10 +12,10 @@ This repository is a Claude Code plugin marketplace containing 10 granular plugi
 
 ```bash
 # Add via GitHub (recommended)
-/plugin marketplace add alirezarezvani/claude-skills
+/plugin marketplace add Mparker25/claude-skills
 
 # Or add via git URL
-/plugin marketplace add https://github.com/alirezarezvani/claude-skills.git
+/plugin marketplace add https://github.com/Mparker25/claude-skills.git
 
 # Or add local development version
 /plugin marketplace add /path/to/claude-skills
@@ -33,8 +35,8 @@ This repository is a Claude Code plugin marketplace containing 10 granular plugi
 
 ```bash
 # Install specific plugin from marketplace
-/plugin install marketing-skills@nginity-claude-skills
-/plugin install core-engineering@nginity-claude-skills
+/plugin install marketing-skills@mparker-claude-skills
+/plugin install core-engineering@mparker-claude-skills
 
 # Browse and install interactively
 /plugin
@@ -43,7 +45,7 @@ This repository is a Claude Code plugin marketplace containing 10 granular plugi
 ## Available Plugin Collections
 
 ### 1. Marketing Skills (3 skills)
-**Install:** `/plugin install marketing-skills@nginity-claude-skills`
+**Install:** `/plugin install marketing-skills@mparker-claude-skills`
 
 Complete marketing toolkit with content creation, demand generation, and product marketing strategy.
 
@@ -64,7 +66,7 @@ Complete marketing toolkit with content creation, demand generation, and product
 ---
 
 ### 2. Executive Advisory (2 skills)
-**Install:** `/plugin install executive-advisory@nginity-claude-skills`
+**Install:** `/plugin install executive-advisory@mparker-claude-skills`
 
 Strategic leadership advisory for C-level executives with decision frameworks and technical guidance.
 
@@ -82,7 +84,7 @@ Strategic leadership advisory for C-level executives with decision frameworks an
 ---
 
 ### 3. Product Management (3 skills)
-**Install:** `/plugin install product-management@nginity-claude-skills`
+**Install:** `/plugin install product-management@mparker-claude-skills`
 
 Complete product management toolkit with RICE prioritization, agile delivery, and product strategy.
 
@@ -104,7 +106,7 @@ Complete product management toolkit with RICE prioritization, agile delivery, an
 ---
 
 ### 4. UX Design Skills (2 skills)
-**Install:** `/plugin install ux-design-skills@nginity-claude-skills`
+**Install:** `/plugin install ux-design-skills@mparker-claude-skills`
 
 UX research, UI design systems, persona generation, and design token automation.
 
@@ -124,7 +126,7 @@ UX research, UI design systems, persona generation, and design token automation.
 ---
 
 ### 5. Project Management (6 skills)
-**Install:** `/plugin install project-management@nginity-claude-skills`
+**Install:** `/plugin install project-management@mparker-claude-skills`
 
 Complete project management suite covering PM, Scrum, Jira, Confluence, and Atlassian administration.
 
@@ -147,7 +149,7 @@ Complete project management suite covering PM, Scrum, Jira, Confluence, and Atla
 ---
 
 ### 6. Core Engineering (9 skills)
-**Install:** `/plugin install core-engineering@nginity-claude-skills`
+**Install:** `/plugin install core-engineering@mparker-claude-skills`
 
 Complete engineering team skills from architecture to fullstack, QA, DevOps, and security.
 
@@ -176,7 +178,7 @@ Complete engineering team skills from architecture to fullstack, QA, DevOps, and
 ---
 
 ### 7. AI/ML/Data Engineering (5 skills)
-**Install:** `/plugin install ai-ml-data-engineering@nginity-claude-skills`
+**Install:** `/plugin install ai-ml-data-engineering@mparker-claude-skills`
 
 AI/ML and data engineering skills including data science, ML engineering, and computer vision.
 
@@ -201,7 +203,7 @@ AI/ML and data engineering skills including data science, ML engineering, and co
 ---
 
 ### 8. Regulatory Affairs (4 skills)
-**Install:** `/plugin install regulatory-affairs@nginity-claude-skills`
+**Install:** `/plugin install regulatory-affairs@mparker-claude-skills`
 
 HealthTech/MedTech regulatory compliance including MDR 2017/745, FDA, and risk management.
 
@@ -222,7 +224,7 @@ HealthTech/MedTech regulatory compliance including MDR 2017/745, FDA, and risk m
 ---
 
 ### 9. Quality Management (5 skills)
-**Install:** `/plugin install quality-management@nginity-claude-skills`
+**Install:** `/plugin install quality-management@mparker-claude-skills`
 
 Quality management systems covering QMR, ISO 13485, CAPA, and ISO 27001.
 
@@ -244,7 +246,7 @@ Quality management systems covering QMR, ISO 13485, CAPA, and ISO 27001.
 ---
 
 ### 10. Audit & Compliance (3 skills)
-**Install:** `/plugin install audit-compliance@nginity-claude-skills`
+**Install:** `/plugin install audit-compliance@mparker-claude-skills`
 
 Audit and compliance expertise including QMS, ISMS, and GDPR compliance.
 
@@ -270,10 +272,10 @@ Configure automatic marketplace installation for team projects by adding to `.cl
 ```json
 {
   "extraKnownMarketplaces": {
-    "nginity-claude-skills": {
+    "mparker-claude-skills": {
       "source": {
         "source": "github",
-        "repo": "alirezarezvani/claude-skills"
+        "repo": "Mparker25/claude-skills"
       }
     }
   },
@@ -368,9 +370,9 @@ MIT License - see LICENSE file for details.
 
 ## Support
 
-- **Issues:** https://github.com/alirezarezvani/claude-skills/issues
+- **Issues:** https://github.com/Mparker25/claude-skills/issues
 - **Documentation:** See individual SKILL.md files
-- **Email:** contact@nginity.io
+- **Email:** Malik.Bernard.Parker@gmail.com
 
 ---
 

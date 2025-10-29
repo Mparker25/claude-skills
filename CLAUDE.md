@@ -93,13 +93,13 @@ This hybrid approach maintains the Claude Code plugin specification while preser
 
 ```bash
 # User adds marketplace
-/plugin marketplace add alirezarezvani/claude-skills
+/plugin marketplace add Mparker25/claude-skills
 
 # Claude Code reads .claude-plugin/marketplace.json
 # Discovers 10 plugin collections with 42 total skills
 
 # User installs specific plugin
-/plugin install marketing-skills@nginity-claude-skills
+/plugin install marketing-skills@mparker-claude-skills
 
 # Claude Code resolves paths:
 # - ./marketing-skill/content-creator

@@ -190,8 +190,8 @@ All contributors will be credited in release notes for their specific contributi
 
 ---
 
-[Unreleased]: https://github.com/alirezarezvani/claude-skills/compare/v1.0.2...HEAD
-[1.1.0]: https://github.com/alirezarezvani/claude-skills/compare/v1.0.1...v1.1.0
-[1.0.2]: https://github.com/alirezarezvani/claude-skills/compare/v1.0.1...v1.0.2
-[1.0.1]: https://github.com/alirezarezvani/claude-skills/compare/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/alirezarezvani/claude-skills/releases/tag/v1.0.0
+[Unreleased]: https://github.com/Mparker25/claude-skills/compare/v1.0.2...HEAD
+[1.1.0]: https://github.com/Mparker25/claude-skills/compare/v1.0.1...v1.1.0
+[1.0.2]: https://github.com/Mparker25/claude-skills/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/Mparker25/claude-skills/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/Mparker25/claude-skills/releases/tag/v1.0.0

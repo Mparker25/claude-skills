@@ -1,6 +1,8 @@
-# Claude Skills Library by nginity (Your Agentic Startup Kit)
+# Claude Skills Library - Enhanced Fork
 
 **Production-Ready skill packages for Claude AI & Claude Code** - Reusable expertise bundles combining best practices, analysis tools, and strategic frameworks for marketing teams, executive leadership, product development, your web and mobile engineering teams. Many other teams will be included soon and regularly.
+
+> **Fork Notice:** This is a maintained and enhanced fork of the [original Claude Skills Library](https://github.com/alirezarezvani/claude-skills) by Alireza Rezvani (MIT License). This fork includes improvements, additional documentation, and active maintenance by Malik Bernard Parker.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude AI](https://img.shields.io/badge/Claude-AI-blue.svg)](https://claude.ai)
@@ -51,15 +53,15 @@ This repository provides **modular, self-contained skill packages** designed to 
 
 ```bash
 # Add the marketplace
-/plugin marketplace add alirezarezvani/claude-skills
+/plugin marketplace add Mparker25/claude-skills
 
 # Browse available plugins
 /plugin
 
 # Install specific plugin collection
-/plugin install marketing-skills@nginity-claude-skills
-/plugin install core-engineering@nginity-claude-skills
-/plugin install product-management@nginity-claude-skills
+/plugin install marketing-skills@mparker-claude-skills
+/plugin install core-engineering@mparker-claude-skills
+/plugin install product-management@mparker-claude-skills
 ```
 
 ### Available Plugin Collections
@@ -84,10 +86,10 @@ Add to `.claude/settings.json` for automatic installation:
 ```json
 {
   "extraKnownMarketplaces": {
-    "nginity-claude-skills": {
+    "mparker-claude-skills": {
       "source": {
         "source": "github",
-        "repo": "alirezarezvani/claude-skills"
+        "repo": "Mparker25/claude-skills"
       }
     }
   },
@@ -1035,7 +1037,7 @@ Claude Code can execute the Python analysis tools and integrate skills into your
 
 1. **Clone this repository** into your project or workspace:
    ```bash
-   git clone https://github.com/alirezarezvani/claude-skills.git
+   git clone https://github.com/Mparker25/claude-skills.git
    cd claude-skills
    ```
 
@@ -1329,7 +1331,7 @@ Each skill package follows a consistent, modular structure:
 ### Clone Repository
 
 ```bash
-git clone https://github.com/alirezarezvani/claude-skills.git
+git clone https://github.com/Mparker25/claude-skills.git
 cd claude-skills
 ```
 
@@ -1469,96 +1471,6 @@ python c-level-advisor/cto-advisor/scripts/tech_debt_analyzer.py /path/to/codeba
    - Decision framework showing evaluation criteria
 
 ---
-
-## 🔗 Related Projects & Tools
-
-Explore our complete ecosystem of Claude Code augmentation tools and utilities:
-
-### 🏭 Claude Code Skills & Agents Factory
-
-**Repository:** [claude-code-skill-factory](https://github.com/alirezarezvani/claude-code-skill-factory)
-
-**What it is:** Factory toolkit for generating production-ready Claude Skills and Agents at scale.
-
-**Key Features:**
-- 🎯 **69 Factory Presets** across 15 professional domains
-- 🔧 **Smart Generation** - Automatically determines if Python code or prompt-only instruction is needed
-- 📦 **Complete Skill Packages** - Generates SKILL.md, Python scripts, references, and sample data
-- 🚀 **Multi-Platform Support** - Works with Claude.ai, Claude Code, and API
-- ⚡ **Rapid Prototyping** - Create custom skills in minutes, not hours
-
-**Perfect For:**
-- Building custom skills beyond the 42 provided in this library
-- Generating domain-specific agents for your organization
-- Scaling AI customization across teams
-- Rapid prototyping of specialized workflows
-
-**Use Case:** "I need a skill for [your specific domain]? Use the Factory to generate it instantly!"
-
----
-
-### 💎 Claude Code Tresor (Productivity Toolkit)
-
-**Repository:** [claude-code-tresor](https://github.com/alirezarezvani/claude-code-tresor)
-
-**What it is:** Comprehensive productivity enhancement toolkit with 20+ utilities for Claude Code development workflows.
-
-**Key Features:**
-- 🤖 **8 Autonomous Skills** - Background helpers (code quality, security, testing, docs)
-- 👨‍💻 **8 Expert Agents** - Manual specialists via `@` mentions (architecture, debugging, performance)
-- ⚡ **4 Workflow Commands** - Slash commands (`/scaffold`, `/review`, `/test-gen`, `/docs-gen`)
-- 📋 **20+ Prompt Templates** - Common development scenarios ready to use
-- 📚 **Development Standards** - Style guides and best practices
-
-**Perfect For:**
-- Solo developers seeking productivity acceleration
-- Development teams standardizing processes
-- Code quality automation and continuous improvement
-- Professional Claude Code workflows from scaffolding through deployment
-
-**Use Case:** "Working on a project in Claude Code? Use Tresor's agents, commands, and skills to supercharge your development workflow!"
-
----
-
-### 🌟 How These Projects Work Together
-
-**Complete Claude Code Ecosystem:**
-
-```
-┌─────────────────────────────────────────────────────────┐
-│  Claude Skills Library (This Repository)                │
-│  42 Domain Expert Skills - Marketing to Engineering     │
-│  Use for: Domain expertise, frameworks, best practices  │
-└────────────────┬────────────────────────────────────────┘
-                 │
-        ┌────────┴────────┐
-        │                 │
-        ▼                 ▼
-┌──────────────┐  ┌───────────────────┐
-│ Skill Factory│  │  Claude Tresor    │
-│              │  │                   │
-│ Create MORE  │  │ USE skills in     │
-│ custom skills│  │ development       │
-│              │  │                   │
-│ For: Custom  │  │ For: Daily dev    │
-│ domains &    │  │ workflows, code   │
-│ org-specific │  │ quality, testing  │
-│ needs        │  │ automation        │
-└──────────────┘  └───────────────────┘
-```
-
-**Workflow:**
-1. **Start here** (Skills Library) - Get 42 production-ready expert skills
-2. **Expand** (Skill Factory) - Generate custom skills for your specific needs
-3. **Supercharge** (Tresor) - Use skills + agents + commands in Claude Code development
-
-**Together they provide:**
-- ✅ 42 ready-to-use expert skills (this repo)
-- ✅ Unlimited custom skill generation (Factory)
-- ✅ Complete development workflow automation (Tresor)
-- ✅ Cross-platform compatibility (Claude.ai, Claude Code, API)
-
-**All repositories by [Alireza Rezvani](https://alirezarezvani.com)** - Building the complete Claude Code augmentation ecosystem.
 
 ---
 
@@ -1776,24 +1688,25 @@ You are free to:
 
 ---
 
-## 👤 Author
+## 👤 Maintainer
 
-**Alireza Rezvani**
+**Malik Bernard Parker**
 
-Building AI-powered tools and frameworks to democratize professional expertise.
+Maintaining and enhancing this comprehensive Claude AI skills library.
 
-- 🌐 **Website:** [alirezarezvani.com](https://alirezarezvani.com)
+- 📧 **Email:** Malik.Bernard.Parker@gmail.com
+- 💻 **GitHub:** [@Mparker25](https://github.com/Mparker25)
+
+### About This Fork
+
+This is a maintained fork of the original Claude Skills Library, with ongoing improvements, bug fixes, and enhancements. The goal remains: **make world-class expertise accessible to everyone** through Claude AI.
+
+### Original Author
+
+**Alireza Rezvani** - Original creator of the Claude Skills Library
+
+- 🌐 **Original Repository:** [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)
 - 📝 **Blog:** [medium.com/@alirezarezvani](https://medium.com/@alirezarezvani)
-- 💼 **LinkedIn:** Connect for updates on new skills and AI developments
-- 📧 **Contact:** Available through website or blog
-
-### About This Project
-
-This repository emerged from years of experience building marketing strategies, leading engineering teams, and advising executives. The goal is simple: **make world-class expertise accessible to everyone** through Claude AI.
-
-Each skill represents hundreds of hours of domain expertise, distilled into actionable frameworks and automated tools. By sharing these openly, I hope to help teams work smarter, move faster, and achieve better results.
-
-**Follow my journey** building AI-powered professional tools on [Medium](https://medium.com/@alirezarezvani).
 
 ---
 
@@ -1811,7 +1724,7 @@ Each skill represents hundreds of hours of domain expertise, distilled into acti
 
 - **Documentation Issues:** Open an issue in this repository
 - **Skill Requests:** Submit a feature request describing your use case
-- **General Questions:** Reach out via my [website](https://alirezarezvani.com) or [blog](https://medium.com/@alirezarezvani)
+- **General Questions:** Reach out via my [website](https://github.com/Mparker25) or [blog](https://medium.com/@alirezarezvani)
 
 ### Sharing Your Success
 

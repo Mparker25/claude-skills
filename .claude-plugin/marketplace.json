@@ -1,13 +1,13 @@
 {
-  "name": "nginity-claude-skills",
+  "name": "mparker-claude-skills",
   "owner": {
-    "name": "Alireza Rezvani",
-    "email": "contact@nginity.io"
+    "name": "Malik Bernard Parker",
+    "email": "Malik.Bernard.Parker@gmail.com"
   },
   "metadata": {
-    "description": "Production-ready skill packages for Claude AI - 42 expert skills across marketing, engineering, product, compliance, and leadership domains",
-    "version": "1.0.0",
-    "homepage": "https://github.com/alirezarezvani/claude-skills",
+    "description": "Production-ready skill packages for Claude AI - 42 expert skills across marketing, engineering, product, compliance, and leadership domains. Maintained fork with enhancements.",
+    "version": "2.0.0",
+    "homepage": "https://github.com/Mparker25/claude-skills",
     "license": "MIT"
   },
   "plugins": [
