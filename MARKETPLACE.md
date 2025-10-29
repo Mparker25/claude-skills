@@ -1,138 +1,165 @@
-# Claude Skills Marketplace - Enhanced Fork
+# Claude Startup Starter Kit - Marketplace Guide
 
-> Production-ready skill packages for Claude AI - 42 expert skills across marketing, engineering, product, compliance, and leadership domains.
+> **Complete AI-powered startup toolkit** with 10 domain expert agents coordinating 42 specialized skills and 97 automation tools.
 
-This repository is a Claude Code plugin marketplace containing 10 granular plugin collections, each focused on specific professional domains and use cases.
+This is a Claude Code plugin marketplace featuring **domain expert agents** that intelligently coordinate specialized skills across marketing, engineering, product, compliance, and leadership domains. Think of it as hiring an AI-powered executive team for your startup.
 
-> **Fork Notice:** This is a maintained fork of the [original Claude Skills Library](https://github.com/alirezarezvani/claude-skills) by Alireza Rezvani (MIT License). Maintained by Malik Bernard Parker.
+> **Fork Notice:** This is a professionally maintained fork of the [original Claude Skills Library](https://github.com/alirezarezvani/claude-skills) by Alireza Rezvani (MIT License). Enhanced and maintained by Malik Bernard Parker.
 
 ## Quick Start
 
-### Add the Marketplace
+### 1. Add the Marketplace
 
 ```bash
 # Add via GitHub (recommended)
 /plugin marketplace add Mparker25/claude-skills
-
-# Or add via git URL
-/plugin marketplace add https://github.com/Mparker25/claude-skills.git
-
-# Or add local development version
-/plugin marketplace add /path/to/claude-skills
 ```
 
-### Browse Available Plugins
+### 2. Install Domain Toolkits
 
 ```bash
-# Open interactive plugin browser
-/plugin
-
-# List all installed marketplaces
-/plugin marketplace list
-```
-
-### Install Plugins
-
-```bash
-# Install specific plugin from marketplace
+# Install specific toolkits (includes agent + skills)
 /plugin install marketing@mparker-claude-skills
 /plugin install core-engineering@mparker-claude-skills
-
-# Browse and install interactively
-/plugin
+/plugin install product-management@mparker-claude-skills
 ```
+
+### 3. Use Your Domain Agents
+
+```bash
+# Invoke agents to coordinate complex workflows
+@marketing-strategist launch our new SaaS product
+@engineering-lead review our microservices architecture
+@product-lead prioritize Q2 roadmap with RICE framework
+```
+
+**That's it!** Each plugin includes a domain expert agent that coordinates multiple skills automatically.
 
 ## Available Plugin Collections
 
-### 1. Marketing Skills (3 skills)
+### 1. Marketing Toolkit (3 skills + 1 agent)
 **Install:** `/plugin install marketing@mparker-claude-skills`
 
-Complete marketing toolkit with content creation, demand generation, and product marketing strategy.
+Complete marketing toolkit with **Marketing Strategist agent** (`@marketing-strategist`) coordinating content creation, demand generation, and product marketing strategy.
 
-**Included Skills:**
+**🤖 Domain Agent:**
+- **@marketing-strategist**: CMO-level strategic coordination of all marketing activities
+
+**📚 Included Skills:**
 - **content-creator**: SEO-optimized content with brand voice analysis
 - **marketing-demand-acquisition**: Lead generation and acquisition strategies
 - **marketing-strategy-pmm**: Product marketing and go-to-market planning
 
-**Use Cases:**
-- Creating blog posts and social media content
-- SEO optimization and keyword research
-- Brand voice consistency analysis
-- Content calendar planning
-- Demand generation campaigns
+**💡 Example Workflows:**
+```bash
+# Product launch (agent coordinates all 3 skills)
+@marketing-strategist launch our new SaaS product
 
-**Python Tools:** `brand_voice_analyzer.py`, `seo_optimizer.py`
+# Content strategy
+@marketing-strategist build Q1 content strategy for our blog
+
+# Demand generation
+@marketing-strategist setup paid campaigns with $50k budget
+```
+
+**🛠️ Python Tools:** `brand_voice_analyzer.py`, `seo_optimizer.py`, `cac_calculator.py`
 
 ---
 
-### 2. Executive Advisory (2 skills)
+### 2. Executive Advisory Toolkit (2 skills + 1 agent)
 **Install:** `/plugin install executive-advisory@mparker-claude-skills`
 
-Strategic leadership advisory for C-level executives with decision frameworks and technical guidance.
+Strategic leadership combining CEO and CTO expertise with **Executive Advisor agent** (`@executive-advisor`) for board-level decision-making.
 
-**Included Skills:**
+**🤖 Domain Agent:**
+- **@executive-advisor**: Combined CEO + CTO strategic advisory for startups
+
+**📚 Included Skills:**
 - **ceo-advisor**: Strategic planning and business decision frameworks
 - **cto-advisor**: Technical leadership and engineering strategy
 
-**Use Cases:**
-- Strategic planning and OKR setting
-- Technical architecture decisions
-- Team scaling and organization design
-- Investment and resource allocation
-- Executive decision-making frameworks
+**💡 Example Workflows:**
+```bash
+# Strategic planning
+@executive-advisor set company OKRs for Q2 2025
 
-**Python Tools:** `strategy_analyzer.py`, `financial_scenario_modeler.py`, `tech_debt_analyzer.py`, `team_scaling_calculator.py`
+# Architecture decisions
+@executive-advisor should we use microservices or monolith?
+
+# Board preparation
+@executive-advisor prepare Series A board presentation
+```
+
+**🛠️ Python Tools:** `strategy_analyzer.py`, `financial_scenario_modeler.py`, `tech_debt_analyzer.py`, `team_scaling_calculator.py`
 
 ---
 
-### 3. Product Management (3 skills)
+### 3. Product Management Toolkit (3 skills + 1 agent)
 **Install:** `/plugin install product-management@mparker-claude-skills`
 
-Complete product management toolkit with RICE prioritization, agile delivery, and product strategy.
+Complete product toolkit with **Product Lead agent** (`@product-lead`) coordinating RICE prioritization, agile delivery, and strategic planning.
 
-**Included Skills:**
+**🤖 Domain Agent:**
+- **@product-lead**: Head of Product with RICE, OKRs, and sprint planning expertise
+
+**📚 Included Skills:**
 - **product-manager-toolkit**: RICE prioritization, customer interviews, roadmapping
 - **agile-product-owner**: User story generation, sprint planning, backlog management
 - **product-strategist**: OKR cascade, strategy frameworks, market analysis
 
-**Use Cases:**
-- Feature prioritization with RICE framework
-- User story and acceptance criteria creation
-- Sprint planning and capacity management
-- Product roadmap development
-- Customer interview analysis
-- OKR cascade and alignment
+**💡 Example Workflows:**
+```bash
+# Feature prioritization
+@product-lead prioritize Q2 roadmap with RICE framework
 
-**Python Tools:** `rice_prioritizer.py`, `customer_interview_analyzer.py`, `user_story_generator.py`, `okr_cascade_generator.py`
+# Customer research
+@product-lead analyze customer interview transcripts
+
+# Sprint planning
+@product-lead plan next 2-week sprint with 30 points capacity
+```
+
+**🛠️ Python Tools:** `rice_prioritizer.py`, `customer_interview_analyzer.py`, `user_story_generator.py`, `okr_cascade_generator.py`
 
 ---
 
-### 4. UX Design Skills (2 skills)
+### 4. UX Design Toolkit (2 skills + 1 agent)
 **Install:** `/plugin install ux-design@mparker-claude-skills`
 
-UX research, UI design systems, persona generation, and design token automation.
+User experience and UI design with **Design Director agent** (`@design-director`) coordinating research and design systems.
 
-**Included Skills:**
+**🤖 Domain Agent:**
+- **@design-director**: Head of Design combining UX research and UI design expertise
+
+**📚 Included Skills:**
 - **ux-researcher-designer**: User research, persona generation, usability testing
 - **ui-design-system**: Design tokens, component libraries, style guides
 
-**Use Cases:**
-- User persona creation and validation
-- Design system development
-- Automated design token generation
-- Usability testing planning
-- Component library documentation
+**💡 Example Workflows:**
+```bash
+# Design system creation
+@design-director create design system from brand color #0066CC
 
-**Python Tools:** `persona_generator.py`, `design_token_generator.py`
+# User research
+@design-director generate personas from user interviews
+
+# Design tokens
+@design-director export design tokens as CSS variables
+```
+
+**🛠️ Python Tools:** `persona_generator.py`, `design_token_generator.py`
 
 ---
 
-### 5. Project Management (6 skills)
+### 5. Project Management Toolkit (6 skills + 1 agent)
 **Install:** `/plugin install project-management@mparker-claude-skills`
 
-Complete project management suite covering PM, Scrum, Jira, Confluence, and Atlassian administration.
+Complete agile delivery toolkit with **Delivery Manager agent** (`@delivery-manager`) coordinating PM, Scrum, and Atlassian tools.
 
-**Included Skills:**
+**🤖 Domain Agent:**
+- **@delivery-manager**: VP of Delivery managing agile ceremonies and project operations
+
+**📚 Included Skills:**
 - **senior-pm**: Project planning, risk management, stakeholder communication
 - **scrum-master**: Sprint facilitation, agile ceremonies, team coaching
 - **jira-expert**: Jira administration, workflow optimization, reporting
@@ -140,24 +167,31 @@ Complete project management suite covering PM, Scrum, Jira, Confluence, and Atla
 - **atlassian-admin**: Atlassian suite administration and integration
 - **atlassian-templates**: Ready-to-use Jira and Confluence templates
 
-**Use Cases:**
-- Sprint planning and retrospectives
-- Jira workflow configuration
-- Confluence documentation structure
-- Team capacity planning
-- Agile transformation
-- Project reporting and dashboards
+**💡 Example Workflows:**
+```bash
+# Sprint setup
+@delivery-manager setup new sprint in Jira with 2-week timeline
 
-**Python Tools:** None (uses Atlassian MCP Server for direct Jira/Confluence operations)
+# Agile transformation
+@delivery-manager implement Scrum framework for our team
+
+# Documentation
+@delivery-manager create Confluence space structure for engineering
+```
+
+**🛠️ Python Tools:** None (uses Atlassian MCP Server for direct Jira/Confluence operations)
 
 ---
 
-### 6. Core Engineering (9 skills)
+### 6. Core Engineering Toolkit (9 skills + 1 agent)
 **Install:** `/plugin install core-engineering@mparker-claude-skills`
 
-Complete engineering team skills from architecture to fullstack, QA, DevOps, and security.
+Complete engineering team with **Engineering Lead agent** (`@engineering-lead`) coordinating architecture through security.
 
-**Included Skills:**
+**🤖 Domain Agent:**
+- **@engineering-lead**: VP of Engineering managing architecture, development, QA, DevOps, and security
+
+**📚 Included Skills:**
 - **senior-architect**: System design, architecture patterns, technical decision-making
 - **senior-frontend**: React, Next.js, TypeScript, modern frontend development
 - **senior-backend**: Node.js, APIs, databases, microservices
@@ -168,110 +202,140 @@ Complete engineering team skills from architecture to fullstack, QA, DevOps, and
 - **code-reviewer**: Code review best practices, quality standards
 - **senior-security**: Application security, penetration testing, security architecture
 
-**Use Cases:**
-- System architecture design
-- Full-stack application development
-- CI/CD pipeline setup
-- Code quality analysis
-- Security audits and vulnerability scanning
-- Infrastructure as code
-- Test automation frameworks
+**💡 Example Workflows:**
+```bash
+# Architecture review
+@engineering-lead review our microservices architecture
 
-**Python Tools:** `project_scaffolder.py`, `code_quality_analyzer.py`, `fullstack_scaffolder.py`, `pr_analyzer.py`
+# Code quality
+@engineering-lead analyze code quality and security
+
+# CI/CD setup
+@engineering-lead setup CI/CD pipeline for Next.js app
+```
+
+**🛠️ Python Tools:** `project_scaffolder.py`, `code_quality_analyzer.py`, `fullstack_scaffolder.py`, `pr_analyzer.py`
 
 ---
 
-### 7. AI/ML/Data Engineering (5 skills)
+### 7. AI/ML/Data Toolkit (5 skills + 1 agent)
 **Install:** `/plugin install ai-ml-data-engineering@mparker-claude-skills`
 
-AI/ML and data engineering skills including data science, ML engineering, and computer vision.
+AI/ML and data engineering with **Data Science Lead agent** (`@data-science-lead`) coordinating ML pipelines and deployment.
 
-**Included Skills:**
+**🤖 Domain Agent:**
+- **@data-science-lead**: Head of AI/ML/Data with MLOps and production expertise
+
+**📚 Included Skills:**
 - **senior-data-scientist**: Statistical analysis, experimentation, feature engineering
 - **senior-data-engineer**: Data pipelines, ETL/ELT, data quality
 - **senior-ml-engineer**: Model deployment, MLOps, production ML systems
 - **senior-prompt-engineer**: LLM optimization, RAG systems, AI agents
 - **senior-computer-vision**: Object detection, image processing, video analysis
 
-**Use Cases:**
-- A/B test design and statistical analysis
-- Data pipeline orchestration
-- ML model deployment and monitoring
-- LLM prompt optimization
-- Computer vision model training
-- Feature engineering pipelines
-- RAG system development
+**💡 Example Workflows:**
+```bash
+# ML pipeline
+@data-science-lead build ML model deployment pipeline
 
-**Python Tools:** `experiment_designer.py`, `feature_engineering_pipeline.py`, `statistical_analyzer.py`, `pipeline_orchestrator.py`, `data_quality_validator.py`, `etl_generator.py`, `model_deployment_pipeline.py`, `mlops_setup_tool.py`, `llm_integration_builder.py`, `prompt_optimizer.py`, `rag_system_builder.py`, `agent_orchestrator.py`, `vision_model_trainer.py`, `inference_optimizer.py`, `video_processor.py`
+# RAG system
+@data-science-lead build RAG system for our documentation
+
+# Computer vision
+@data-science-lead train object detection model
+```
+
+**🛠️ Python Tools:** `experiment_designer.py`, `feature_engineering_pipeline.py`, `statistical_analyzer.py`, `pipeline_orchestrator.py`, `data_quality_validator.py`, `etl_generator.py`, `model_deployment_pipeline.py`, `mlops_setup_tool.py`, `llm_integration_builder.py`, `prompt_optimizer.py`, `rag_system_builder.py`, `agent_orchestrator.py`, `vision_model_trainer.py`, `inference_optimizer.py`, `video_processor.py`
 
 ---
 
-### 8. Regulatory Affairs (4 skills)
+### 8. Regulatory Affairs Toolkit (4 skills + 1 agent)
 **Install:** `/plugin install regulatory-affairs@mparker-claude-skills`
 
-HealthTech/MedTech regulatory compliance including MDR 2017/745, FDA, and risk management.
+HealthTech/MedTech compliance with **Regulatory Director agent** (`@regulatory-director`) coordinating MDR, FDA, and risk management.
 
-**Included Skills:**
+**🤖 Domain Agent:**
+- **@regulatory-director**: Head of Regulatory Affairs for medical device market access
+
+**📚 Included Skills:**
 - **regulatory-affairs-head**: Regulatory strategy, submissions, compliance oversight
 - **mdr-745-specialist**: EU MDR 2017/745 compliance and implementation
 - **fda-consultant-specialist**: FDA 510(k), PMA, quality system regulations
 - **risk-management-specialist**: ISO 14971 risk management process
 
-**Use Cases:**
-- Regulatory submission preparation
-- MDR compliance documentation
-- FDA regulatory pathway selection
-- Risk management file creation
-- Post-market surveillance
-- Technical file compilation
+**💡 Example Workflows:**
+```bash
+# MDR compliance
+@regulatory-director prepare EU MDR certification
 
-**Python Tools:** None (documentation and compliance framework-based skills)
+# FDA submission
+@regulatory-director prepare 510(k) submission package
+
+# Risk management
+@regulatory-director conduct ISO 14971 risk analysis
+```
+
+**🛠️ Python Tools:** `regulatory_pathway_analyzer.py`, `submission_timeline_tracker.py`, `risk_analysis_tool.py`
 
 ---
 
-### 9. Quality Management (5 skills)
+### 9. Quality Management Toolkit (5 skills + 1 agent)
 **Install:** `/plugin install quality-management@mparker-claude-skills`
 
-Quality management systems covering QMR, ISO 13485, CAPA, and ISO 27001.
+Quality systems with **Quality Director agent** (`@quality-director`) coordinating ISO 13485, CAPA, and ISO 27001.
 
-**Included Skills:**
+**🤖 Domain Agent:**
+- **@quality-director**: Head of Quality managing QMS, CAPA, and information security
+
+**📚 Included Skills:**
 - **quality-manager-qmr**: Quality management representative role
 - **quality-manager-qms-iso13485**: ISO 13485 QMS implementation
 - **capa-officer**: Corrective and preventive action management
 - **quality-documentation-manager**: Document control and management
 - **information-security-manager-iso27001**: ISO 27001 ISMS implementation
 
-**Use Cases:**
-- QMS documentation and implementation
-- CAPA investigation and closure
-- Management review preparation
-- Document control systems
-- Information security management
-- Internal audit execution
+**💡 Example Workflows:**
+```bash
+# QMS setup
+@quality-director setup ISO 13485 quality management system
 
-**Python Tools:** None (documentation and quality system framework-based skills)
+# CAPA management
+@quality-director investigate audit nonconformance
+
+# ISMS setup
+@quality-director implement ISO 27001 information security
+```
+
+**🛠️ Python Tools:** `qms_effectiveness_monitor.py`, `capa_tracker.py`, `document_version_controller.py`
 
 ---
 
-### 10. Audit & Compliance (3 skills)
+### 10. Audit & Compliance Toolkit (3 skills + 1 agent)
 **Install:** `/plugin install audit-compliance@mparker-claude-skills`
 
-Audit and compliance expertise including QMS, ISMS, and GDPR compliance.
+Audit and compliance with **Compliance Officer agent** (`@compliance-officer`) coordinating QMS, ISMS, and GDPR audits.
 
-**Included Skills:**
-- **qms-audit-expert**: Quality management system auditing
-- **isms-audit-expert**: Information security management system auditing
+**🤖 Domain Agent:**
+- **@compliance-officer**: Chief Compliance Officer managing internal audits and GDPR compliance
+
+**📚 Included Skills:**
+- **qms-audit-expert**: Quality management system auditing (ISO 13485)
+- **isms-audit-expert**: Information security management system auditing (ISO 27001)
 - **gdpr-dsgvo-expert**: GDPR/DSGVO compliance and data protection
 
-**Use Cases:**
-- Internal quality audits
-- External audit preparation
-- GDPR compliance assessment
-- Information security audits
-- Non-conformance management
-- Audit finding resolution
+**💡 Example Workflows:**
+```bash
+# Internal QMS audit
+@compliance-officer conduct internal QMS audit
 
-**Python Tools:** None (audit and compliance framework-based skills)
+# ISMS audit
+@compliance-officer audit information security controls
+
+# GDPR assessment
+@compliance-officer assess GDPR compliance
+```
+
+**🛠️ Python Tools:** `gdpr_compliance_checker.py`, `dpia_generator.py`, `audit_checklist_generator.py`
 
 ---
 
