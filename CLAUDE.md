@@ -33,10 +33,10 @@ This repository implements the Claude Code plugin marketplace architecture, enab
 
 Located at `.claude-plugin/marketplace.json`, this file defines 10 granular plugin collections:
 
-1. **marketing-skills** (3 skills) - Content, demand generation, product marketing
+1. **marketing** (3 skills) - Content, demand generation, product marketing
 2. **executive-advisory** (2 skills) - CEO and CTO advisory
 3. **product-management** (3 skills) - PM, agile, strategy
-4. **ux-design-skills** (2 skills) - UX research, UI design
+4. **ux-design** (2 skills) - UX research, UI design
 5. **project-management** (6 skills) - PM, Scrum, Atlassian tools
 6. **core-engineering** (9 skills) - Architecture through security
 7. **ai-ml-data-engineering** (5 skills) - Data science, ML, AI
@@ -99,7 +99,7 @@ This hybrid approach maintains the Claude Code plugin specification while preser
 # Discovers 10 plugin collections with 42 total skills
 
 # User installs specific plugin
-/plugin install marketing-skills@mparker-claude-skills
+/plugin install marketing@mparker-claude-skills
 
 # Claude Code resolves paths:
 # - ./marketing-skill/content-creator

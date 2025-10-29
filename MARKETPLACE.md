@@ -35,7 +35,7 @@ This repository is a Claude Code plugin marketplace containing 10 granular plugi
 
 ```bash
 # Install specific plugin from marketplace
-/plugin install marketing-skills@mparker-claude-skills
+/plugin install marketing@mparker-claude-skills
 /plugin install core-engineering@mparker-claude-skills
 
 # Browse and install interactively
@@ -45,7 +45,7 @@ This repository is a Claude Code plugin marketplace containing 10 granular plugi
 ## Available Plugin Collections
 
 ### 1. Marketing Skills (3 skills)
-**Install:** `/plugin install marketing-skills@mparker-claude-skills`
+**Install:** `/plugin install marketing@mparker-claude-skills`
 
 Complete marketing toolkit with content creation, demand generation, and product marketing strategy.
 
@@ -81,6 +81,8 @@ Strategic leadership advisory for C-level executives with decision frameworks an
 - Investment and resource allocation
 - Executive decision-making frameworks
 
+**Python Tools:** `strategy_analyzer.py`, `financial_scenario_modeler.py`, `tech_debt_analyzer.py`, `team_scaling_calculator.py`
+
 ---
 
 ### 3. Product Management (3 skills)
@@ -106,7 +108,7 @@ Complete product management toolkit with RICE prioritization, agile delivery, an
 ---
 
 ### 4. UX Design Skills (2 skills)
-**Install:** `/plugin install ux-design-skills@mparker-claude-skills`
+**Install:** `/plugin install ux-design@mparker-claude-skills`
 
 UX research, UI design systems, persona generation, and design token automation.
 
@@ -146,6 +148,8 @@ Complete project management suite covering PM, Scrum, Jira, Confluence, and Atla
 - Agile transformation
 - Project reporting and dashboards
 
+**Python Tools:** None (uses Atlassian MCP Server for direct Jira/Confluence operations)
+
 ---
 
 ### 6. Core Engineering (9 skills)
@@ -173,7 +177,7 @@ Complete engineering team skills from architecture to fullstack, QA, DevOps, and
 - Infrastructure as code
 - Test automation frameworks
 
-**Python Tools:** `project_scaffolder.py`, `code_quality_analyzer.py`, `fullstack_scaffolder.py`
+**Python Tools:** `project_scaffolder.py`, `code_quality_analyzer.py`, `fullstack_scaffolder.py`, `pr_analyzer.py`
 
 ---
 
@@ -198,7 +202,7 @@ AI/ML and data engineering skills including data science, ML engineering, and co
 - Feature engineering pipelines
 - RAG system development
 
-**Python Tools:** `experiment_designer.py`, `pipeline_orchestrator.py`, `model_deployment_pipeline.py`, `prompt_optimizer.py`, `vision_model_trainer.py`
+**Python Tools:** `experiment_designer.py`, `feature_engineering_pipeline.py`, `statistical_analyzer.py`, `pipeline_orchestrator.py`, `data_quality_validator.py`, `etl_generator.py`, `model_deployment_pipeline.py`, `mlops_setup_tool.py`, `llm_integration_builder.py`, `prompt_optimizer.py`, `rag_system_builder.py`, `agent_orchestrator.py`, `vision_model_trainer.py`, `inference_optimizer.py`, `video_processor.py`
 
 ---
 
@@ -220,6 +224,8 @@ HealthTech/MedTech regulatory compliance including MDR 2017/745, FDA, and risk m
 - Risk management file creation
 - Post-market surveillance
 - Technical file compilation
+
+**Python Tools:** None (documentation and compliance framework-based skills)
 
 ---
 
@@ -243,6 +249,8 @@ Quality management systems covering QMR, ISO 13485, CAPA, and ISO 27001.
 - Information security management
 - Internal audit execution
 
+**Python Tools:** None (documentation and quality system framework-based skills)
+
 ---
 
 ### 10. Audit & Compliance (3 skills)
@@ -263,6 +271,8 @@ Audit and compliance expertise including QMS, ISMS, and GDPR compliance.
 - Non-conformance management
 - Audit finding resolution
 
+**Python Tools:** None (audit and compliance framework-based skills)
+
 ---
 
 ## Team Configuration
@@ -280,7 +290,7 @@ Configure automatic marketplace installation for team projects by adding to `.cl
     }
   },
   "enabledPlugins": [
-    "marketing-skills",
+    "marketing",
     "core-engineering",
     "product-management"
   ]

@@ -59,17 +59,17 @@ This repository provides **modular, self-contained skill packages** designed to 
 /plugin
 
 # Install specific plugin collection
-/plugin install marketing-skills@mparker-claude-skills
+/plugin install marketing@mparker-claude-skills
 /plugin install core-engineering@mparker-claude-skills
 /plugin install product-management@mparker-claude-skills
 ```
 
 ### Available Plugin Collections
 
-- **marketing-skills** (3 skills) - Content, demand generation, product marketing
+- **marketing** (3 skills) - Content, demand generation, product marketing
 - **executive-advisory** (2 skills) - CEO and CTO strategic advisory
 - **product-management** (3 skills) - PM, agile product owner, product strategist
-- **ux-design-skills** (2 skills) - UX research, UI design systems
+- **ux-design** (2 skills) - UX research, UI design systems
 - **project-management** (6 skills) - PM, Scrum Master, Jira, Confluence, Atlassian
 - **core-engineering** (9 skills) - Architecture, frontend, backend, fullstack, QA, DevOps, security
 - **ai-ml-data-engineering** (5 skills) - Data science, ML engineering, prompt engineering, computer vision
@@ -93,7 +93,7 @@ Add to `.claude/settings.json` for automatic installation:
       }
     }
   },
-  "enabledPlugins": ["marketing-skills", "core-engineering"]
+  "enabledPlugins": ["marketing", "core-engineering"]
 }
 ```
 

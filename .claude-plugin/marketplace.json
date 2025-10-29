@@ -12,12 +12,20 @@
   },
   "plugins": [
     {
-      "name": "marketing-skills",
+      "name": "marketing",
+      "version": "2.0.0",
       "description": "Content creation, demand generation, and product marketing strategy toolkit with SEO optimization and brand voice analysis",
       "source": "./",
       "strict": false,
       "category": "marketing",
-      "keywords": ["marketing", "content", "seo", "brand-voice", "demand-generation", "product-marketing"],
+      "keywords": [
+        "marketing",
+        "content",
+        "seo",
+        "brand-voice",
+        "demand-generation",
+        "product-marketing"
+      ],
       "skills": [
         "./marketing-skill/content-creator",
         "./marketing-skill/marketing-demand-acquisition",
@@ -30,11 +38,19 @@
       "source": "./",
       "strict": false,
       "category": "leadership",
-      "keywords": ["ceo", "cto", "executive", "strategy", "leadership", "advisory"],
+      "keywords": [
+        "ceo",
+        "cto",
+        "executive",
+        "strategy",
+        "leadership",
+        "advisory"
+      ],
       "skills": [
         "./c-level-advisor/ceo-advisor",
         "./c-level-advisor/cto-advisor"
-      ]
+      ],
+      "version": "2.0.0"
     },
     {
       "name": "product-management",
@@ -42,24 +58,41 @@
       "source": "./",
       "strict": false,
       "category": "product",
-      "keywords": ["product-management", "agile", "product-owner", "strategy", "roadmap", "prioritization"],
+      "keywords": [
+        "product-management",
+        "agile",
+        "product-owner",
+        "strategy",
+        "roadmap",
+        "prioritization"
+      ],
       "skills": [
         "./product-team/product-manager-toolkit",
         "./product-team/agile-product-owner",
         "./product-team/product-strategist"
-      ]
+      ],
+      "version": "2.0.0"
     },
     {
-      "name": "ux-design-skills",
+      "name": "ux-design",
       "description": "UX research, UI design systems, persona generation, and design token automation",
       "source": "./",
       "strict": false,
       "category": "design",
-      "keywords": ["ux", "ui", "design", "research", "personas", "design-system", "design-tokens"],
+      "keywords": [
+        "ux",
+        "ui",
+        "design",
+        "research",
+        "personas",
+        "design-system",
+        "design-tokens"
+      ],
       "skills": [
         "./product-team/ux-researcher-designer",
         "./product-team/ui-design-system"
-      ]
+      ],
+      "version": "2.0.0"
     },
     {
       "name": "project-management",
@@ -67,7 +100,15 @@
       "source": "./",
       "strict": false,
       "category": "project-management",
-      "keywords": ["project-management", "scrum", "jira", "confluence", "atlassian", "agile", "templates"],
+      "keywords": [
+        "project-management",
+        "scrum",
+        "jira",
+        "confluence",
+        "atlassian",
+        "agile",
+        "templates"
+      ],
       "skills": [
         "./project-management/senior-pm",
         "./project-management/scrum-master",
@@ -75,7 +116,8 @@
         "./project-management/confluence-expert",
         "./project-management/atlassian-admin",
         "./project-management/atlassian-templates"
-      ]
+      ],
+      "version": "2.0.0"
     },
     {
       "name": "core-engineering",
@@ -83,7 +125,16 @@
       "source": "./",
       "strict": false,
       "category": "engineering",
-      "keywords": ["architecture", "frontend", "backend", "fullstack", "qa", "devops", "security", "code-review"],
+      "keywords": [
+        "architecture",
+        "frontend",
+        "backend",
+        "fullstack",
+        "qa",
+        "devops",
+        "security",
+        "code-review"
+      ],
       "skills": [
         "./engineering-team/senior-architect",
         "./engineering-team/senior-frontend",
@@ -94,7 +145,8 @@
         "./engineering-team/senior-secops",
         "./engineering-team/code-reviewer",
         "./engineering-team/senior-security"
-      ]
+      ],
+      "version": "2.0.0"
     },
     {
       "name": "ai-ml-data-engineering",
@@ -102,14 +154,23 @@
       "source": "./",
       "strict": false,
       "category": "ai-ml-data",
-      "keywords": ["data-science", "machine-learning", "ai", "mlops", "data-engineering", "prompt-engineering", "computer-vision"],
+      "keywords": [
+        "data-science",
+        "machine-learning",
+        "ai",
+        "mlops",
+        "data-engineering",
+        "prompt-engineering",
+        "computer-vision"
+      ],
       "skills": [
         "./engineering-team/senior-data-scientist",
         "./engineering-team/senior-data-engineer",
         "./engineering-team/senior-ml-engineer",
         "./engineering-team/senior-prompt-engineer",
         "./engineering-team/senior-computer-vision"
-      ]
+      ],
+      "version": "2.0.0"
     },
     {
       "name": "regulatory-affairs",
@@ -117,13 +178,22 @@
       "source": "./",
       "strict": false,
       "category": "compliance",
-      "keywords": ["regulatory-affairs", "mdr", "fda", "medical-devices", "compliance", "risk-management", "iso-14971"],
+      "keywords": [
+        "regulatory-affairs",
+        "mdr",
+        "fda",
+        "medical-devices",
+        "compliance",
+        "risk-management",
+        "iso-14971"
+      ],
       "skills": [
         "./ra-qm-team/regulatory-affairs-head",
         "./ra-qm-team/mdr-745-specialist",
         "./ra-qm-team/fda-consultant-specialist",
         "./ra-qm-team/risk-management-specialist"
-      ]
+      ],
+      "version": "2.0.0"
     },
     {
       "name": "quality-management",
@@ -131,14 +201,23 @@
       "source": "./",
       "strict": false,
       "category": "compliance",
-      "keywords": ["quality-management", "qms", "iso-13485", "capa", "documentation", "iso-27001", "information-security"],
+      "keywords": [
+        "quality-management",
+        "qms",
+        "iso-13485",
+        "capa",
+        "documentation",
+        "iso-27001",
+        "information-security"
+      ],
       "skills": [
         "./ra-qm-team/quality-manager-qmr",
         "./ra-qm-team/quality-manager-qms-iso13485",
         "./ra-qm-team/capa-officer",
         "./ra-qm-team/quality-documentation-manager",
         "./ra-qm-team/information-security-manager-iso27001"
-      ]
+      ],
+      "version": "2.0.0"
     },
     {
       "name": "audit-compliance",
@@ -146,12 +225,21 @@
       "source": "./",
       "strict": false,
       "category": "compliance",
-      "keywords": ["audit", "compliance", "qms-audit", "isms-audit", "gdpr", "dsgvo", "data-protection"],
+      "keywords": [
+        "audit",
+        "compliance",
+        "qms-audit",
+        "isms-audit",
+        "gdpr",
+        "dsgvo",
+        "data-protection"
+      ],
       "skills": [
         "./ra-qm-team/qms-audit-expert",
         "./ra-qm-team/isms-audit-expert",
         "./ra-qm-team/gdpr-dsgvo-expert"
-      ]
+      ],
+      "version": "2.0.0"
     }
   ]
 }
