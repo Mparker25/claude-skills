@@ -19,9 +19,9 @@ This is a Claude Code plugin marketplace featuring **domain expert agents** that
 
 ```bash
 # Install specific toolkits (includes agent + skills)
-/plugin install marketing@mparker-claude-skills
-/plugin install core-engineering@mparker-claude-skills
-/plugin install product-management@mparker-claude-skills
+/plugin install marketing@startup-starter-kit
+/plugin install core-engineering@startup-starter-kit
+/plugin install product-management@startup-starter-kit
 ```
 
 ### 3. Use Your Domain Agents
@@ -38,7 +38,7 @@ This is a Claude Code plugin marketplace featuring **domain expert agents** that
 ## Available Plugin Collections
 
 ### 1. Marketing Toolkit (3 skills + 1 agent)
-**Install:** `/plugin install marketing@mparker-claude-skills`
+**Install:** `/plugin install marketing@startup-starter-kit`
 
 Complete marketing toolkit with **Marketing Strategist agent** (`@marketing-strategist`) coordinating content creation, demand generation, and product marketing strategy.
 
@@ -67,7 +67,7 @@ Complete marketing toolkit with **Marketing Strategist agent** (`@marketing-stra
 ---
 
 ### 2. Executive Advisory Toolkit (2 skills + 1 agent)
-**Install:** `/plugin install executive-advisory@mparker-claude-skills`
+**Install:** `/plugin install executive-advisory@startup-starter-kit`
 
 Strategic leadership combining CEO and CTO expertise with **Executive Advisor agent** (`@executive-advisor`) for board-level decision-making.
 
@@ -95,7 +95,7 @@ Strategic leadership combining CEO and CTO expertise with **Executive Advisor ag
 ---
 
 ### 3. Product Management Toolkit (3 skills + 1 agent)
-**Install:** `/plugin install product-management@mparker-claude-skills`
+**Install:** `/plugin install product-management@startup-starter-kit`
 
 Complete product toolkit with **Product Lead agent** (`@product-lead`) coordinating RICE prioritization, agile delivery, and strategic planning.
 
@@ -124,7 +124,7 @@ Complete product toolkit with **Product Lead agent** (`@product-lead`) coordinat
 ---
 
 ### 4. UX Design Toolkit (2 skills + 1 agent)
-**Install:** `/plugin install ux-design@mparker-claude-skills`
+**Install:** `/plugin install ux-design@startup-starter-kit`
 
 User experience and UI design with **Design Director agent** (`@design-director`) coordinating research and design systems.
 
@@ -152,7 +152,7 @@ User experience and UI design with **Design Director agent** (`@design-director`
 ---
 
 ### 5. Project Management Toolkit (6 skills + 1 agent)
-**Install:** `/plugin install project-management@mparker-claude-skills`
+**Install:** `/plugin install project-management@startup-starter-kit`
 
 Complete agile delivery toolkit with **Delivery Manager agent** (`@delivery-manager`) coordinating PM, Scrum, and Atlassian tools.
 
@@ -184,7 +184,7 @@ Complete agile delivery toolkit with **Delivery Manager agent** (`@delivery-mana
 ---
 
 ### 6. Core Engineering Toolkit (9 skills + 1 agent)
-**Install:** `/plugin install core-engineering@mparker-claude-skills`
+**Install:** `/plugin install core-engineering@startup-starter-kit`
 
 Complete engineering team with **Engineering Lead agent** (`@engineering-lead`) coordinating architecture through security.
 
@@ -219,7 +219,7 @@ Complete engineering team with **Engineering Lead agent** (`@engineering-lead`) 
 ---
 
 ### 7. AI/ML/Data Toolkit (5 skills + 1 agent)
-**Install:** `/plugin install ai-ml-data-engineering@mparker-claude-skills`
+**Install:** `/plugin install ai-ml-data-engineering@startup-starter-kit`
 
 AI/ML and data engineering with **Data Science Lead agent** (`@data-science-lead`) coordinating ML pipelines and deployment.
 
@@ -250,7 +250,7 @@ AI/ML and data engineering with **Data Science Lead agent** (`@data-science-lead
 ---
 
 ### 8. Regulatory Affairs Toolkit (4 skills + 1 agent)
-**Install:** `/plugin install regulatory-affairs@mparker-claude-skills`
+**Install:** `/plugin install regulatory-affairs@startup-starter-kit`
 
 HealthTech/MedTech compliance with **Regulatory Director agent** (`@regulatory-director`) coordinating MDR, FDA, and risk management.
 
@@ -280,7 +280,7 @@ HealthTech/MedTech compliance with **Regulatory Director agent** (`@regulatory-d
 ---
 
 ### 9. Quality Management Toolkit (5 skills + 1 agent)
-**Install:** `/plugin install quality-management@mparker-claude-skills`
+**Install:** `/plugin install quality-management@startup-starter-kit`
 
 Quality systems with **Quality Director agent** (`@quality-director`) coordinating ISO 13485, CAPA, and ISO 27001.
 
@@ -311,7 +311,7 @@ Quality systems with **Quality Director agent** (`@quality-director`) coordinati
 ---
 
 ### 10. Audit & Compliance Toolkit (3 skills + 1 agent)
-**Install:** `/plugin install audit-compliance@mparker-claude-skills`
+**Install:** `/plugin install audit-compliance@startup-starter-kit`
 
 Audit and compliance with **Compliance Officer agent** (`@compliance-officer`) coordinating QMS, ISMS, and GDPR audits.
 
@@ -346,7 +346,7 @@ Configure automatic marketplace installation for team projects by adding to `.cl
 ```json
 {
   "extraKnownMarketplaces": {
-    "mparker-claude-skills": {
+    "startup-starter-kit": {
       "source": {
         "source": "github",
         "repo": "Mparker25/claude-skills"

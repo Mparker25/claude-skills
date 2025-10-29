@@ -99,7 +99,7 @@ This hybrid approach maintains the Claude Code plugin specification while preser
 # Discovers 10 plugin collections with 42 total skills
 
 # User installs specific plugin
-/plugin install marketing@mparker-claude-skills
+/plugin install marketing@startup-starter-kit
 
 # Claude Code resolves paths:
 # - ./marketing-skill/content-creator

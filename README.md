@@ -119,9 +119,9 @@ Get your complete startup toolkit in seconds.
 /plugin marketplace add Mparker25/claude-skills
 
 # Install domain expert agents + skills
-/plugin install marketing@mparker-claude-skills
-/plugin install core-engineering@mparker-claude-skills
-/plugin install product-management@mparker-claude-skills
+/plugin install marketing@startup-starter-kit
+/plugin install core-engineering@startup-starter-kit
+/plugin install product-management@startup-starter-kit
 
 # Start using agents immediately
 @marketing-strategist help me launch our product
@@ -155,7 +155,7 @@ Add to `.claude/settings.json` for automatic installation:
 ```json
 {
   "extraKnownMarketplaces": {
-    "mparker-claude-skills": {
+    "startup-starter-kit": {
       "source": {
         "source": "github",
         "repo": "Mparker25/claude-skills"
@@ -1184,9 +1184,9 @@ EU GDPR and German DSGVO compliance and auditing.
 **Step 2: Install Your Domain**
 ```bash
 # Install what you need
-/plugin install marketing@mparker-claude-skills
-/plugin install core-engineering@mparker-claude-skills
-/plugin install product-management@mparker-claude-skills
+/plugin install marketing@startup-starter-kit
+/plugin install core-engineering@startup-starter-kit
+/plugin install product-management@startup-starter-kit
 ```
 
 **Step 3: Use Your Agents**
@@ -1326,9 +1326,9 @@ Use the Claude Code plugin marketplace for instant installation:
 /plugin marketplace add Mparker25/claude-skills
 
 # Install domain toolkits
-/plugin install marketing@mparker-claude-skills
-/plugin install core-engineering@mparker-claude-skills
-/plugin install product-management@mparker-claude-skills
+/plugin install marketing@startup-starter-kit
+/plugin install core-engineering@startup-starter-kit
+/plugin install product-management@startup-starter-kit
 
 # Use agents immediately
 @marketing-strategist launch our product

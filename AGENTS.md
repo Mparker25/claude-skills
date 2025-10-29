@@ -642,7 +642,7 @@ Use content-creator for blog, then marketing-demand for ads, then...
 
 ```bash
 /plugin marketplace add Mparker25/claude-skills
-/plugin install marketing@mparker-claude-skills
+/plugin install marketing@startup-starter-kit
 ```
 
 ### 2. Invoke the Agent
@@ -691,6 +691,6 @@ MIT License - See LICENSE file
 
 ```bash
 /plugin marketplace add Mparker25/claude-skills
-/plugin install marketing@mparker-claude-skills
+/plugin install marketing@startup-starter-kit
 @marketing-strategist help me launch our product
 ```
