@@ -1292,7 +1292,7 @@ Domain expert agents make complex workflows simple. Instead of manually selectin
 
 If you prefer working with individual skills directly:
 
-1. **Upload agent file** (e.g., `.claude/agents/marketing-strategist.md`)
+1. **Upload agent file** (e.g., `agents/marketing-strategist.md`)
 2. **Reference specific skills** from the agent's toolkit
 3. **Upload SKILL.md files** as needed for detailed workflows
 
@@ -1359,7 +1359,7 @@ For custom setups or offline development:
 
 3. **Verify agents**:
    ```bash
-   ls .claude/agents/
+   ls agents/
    # Should show: marketing-strategist.md, engineering-lead.md, etc.
    ```
 

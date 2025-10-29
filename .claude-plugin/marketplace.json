@@ -28,7 +28,7 @@
         "agent"
       ],
       "agents": [
-        "./.claude/agents/marketing-strategist.md"
+        "./agents/marketing-strategist.md"
       ],
       "skills": [
         "./marketing-skill/content-creator",
@@ -53,7 +53,7 @@
         "agent"
       ],
       "agents": [
-        "./.claude/agents/executive-advisor.md"
+        "./agents/executive-advisor.md"
       ],
       "skills": [
         "./c-level-advisor/ceo-advisor",
@@ -77,7 +77,7 @@
         "agent"
       ],
       "agents": [
-        "./.claude/agents/product-lead.md"
+        "./agents/product-lead.md"
       ],
       "skills": [
         "./product-team/product-manager-toolkit",
@@ -103,7 +103,7 @@
         "agent"
       ],
       "agents": [
-        "./.claude/agents/design-director.md"
+        "./agents/design-director.md"
       ],
       "skills": [
         "./product-team/ux-researcher-designer",
@@ -128,7 +128,7 @@
         "agent"
       ],
       "agents": [
-        "./.claude/agents/delivery-manager.md"
+        "./agents/delivery-manager.md"
       ],
       "skills": [
         "./project-management/senior-pm",
@@ -158,7 +158,7 @@
         "agent"
       ],
       "agents": [
-        "./.claude/agents/engineering-lead.md"
+        "./agents/engineering-lead.md"
       ],
       "skills": [
         "./engineering-team/senior-architect",
@@ -190,7 +190,7 @@
         "agent"
       ],
       "agents": [
-        "./.claude/agents/data-science-lead.md"
+        "./agents/data-science-lead.md"
       ],
       "skills": [
         "./engineering-team/senior-data-scientist",
@@ -218,7 +218,7 @@
         "agent"
       ],
       "agents": [
-        "./.claude/agents/regulatory-director.md"
+        "./agents/regulatory-director.md"
       ],
       "skills": [
         "./ra-qm-team/regulatory-affairs-head",
@@ -245,7 +245,7 @@
         "agent"
       ],
       "agents": [
-        "./.claude/agents/quality-director.md"
+        "./agents/quality-director.md"
       ],
       "skills": [
         "./ra-qm-team/quality-manager-qmr",
@@ -273,7 +273,7 @@
         "agent"
       ],
       "agents": [
-        "./.claude/agents/compliance-officer.md"
+        "./agents/compliance-officer.md"
       ],
       "skills": [
         "./ra-qm-team/qms-audit-expert",
