@@ -1,0 +1,17 @@
+{
+  "name": "marketing",
+  "description": "Complete marketing toolkit with Marketing Strategist agent coordinating content creation, demand generation, and product marketing strategy",
+  "version": "2.0.0",
+  "author": {
+    "name": "Malik Bernard Parker",
+    "email": "Malik.Bernard.Parker@gmail.com"
+  },
+  "agents": [
+    "./agents/marketing-strategist.md"
+  ],
+  "skills": [
+    "./skills/content-creator",
+    "./skills/marketing-demand-acquisition",
+    "./skills/marketing-strategy-pmm"
+  ]
+}

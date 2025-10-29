@@ -1,0 +1,19 @@
+{
+  "name": "ai-ml-data-engineering",
+  "description": "AI/ML and data engineering with Data Science Lead agent coordinating ML pipelines and deployment",
+  "version": "2.0.0",
+  "author": {
+    "name": "Malik Bernard Parker",
+    "email": "Malik.Bernard.Parker@gmail.com"
+  },
+  "agents": [
+    "./agents/data-science-lead.md"
+  ],
+  "skills": [
+    "./skills/senior-data-scientist",
+    "./skills/senior-data-engineer",
+    "./skills/senior-ml-engineer",
+    "./skills/senior-prompt-engineer",
+    "./skills/senior-computer-vision"
+  ]
+}

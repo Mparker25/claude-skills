@@ -1,0 +1,16 @@
+{
+  "name": "ux-design",
+  "description": "User experience and UI design with Design Director agent coordinating research and design systems",
+  "version": "2.0.0",
+  "author": {
+    "name": "Malik Bernard Parker",
+    "email": "Malik.Bernard.Parker@gmail.com"
+  },
+  "agents": [
+    "./agents/design-director.md"
+  ],
+  "skills": [
+    "./skills/ux-researcher-designer",
+    "./skills/ui-design-system"
+  ]
+}

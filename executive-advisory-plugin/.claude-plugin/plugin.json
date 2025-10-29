@@ -1,0 +1,16 @@
+{
+  "name": "executive-advisory",
+  "description": "Strategic leadership combining CEO and CTO expertise with Executive Advisor agent for board-level decision-making",
+  "version": "2.0.0",
+  "author": {
+    "name": "Malik Bernard Parker",
+    "email": "Malik.Bernard.Parker@gmail.com"
+  },
+  "agents": [
+    "./agents/executive-advisor.md"
+  ],
+  "skills": [
+    "./skills/ceo-advisor",
+    "./skills/cto-advisor"
+  ]
+}

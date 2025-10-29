@@ -1,0 +1,23 @@
+{
+  "name": "core-engineering",
+  "description": "Complete engineering team with Engineering Lead agent coordinating architecture through security",
+  "version": "2.0.0",
+  "author": {
+    "name": "Malik Bernard Parker",
+    "email": "Malik.Bernard.Parker@gmail.com"
+  },
+  "agents": [
+    "./agents/engineering-lead.md"
+  ],
+  "skills": [
+    "./skills/senior-architect",
+    "./skills/senior-frontend",
+    "./skills/senior-backend",
+    "./skills/senior-fullstack",
+    "./skills/senior-qa",
+    "./skills/senior-devops",
+    "./skills/senior-secops",
+    "./skills/code-reviewer",
+    "./skills/senior-security"
+  ]
+}

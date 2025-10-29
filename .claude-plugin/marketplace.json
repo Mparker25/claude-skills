@@ -1,0 +1,85 @@
+{
+  "name": "startup-starter-kit",
+  "owner": {
+    "name": "Malik Bernard Parker",
+    "email": "Malik.Bernard.Parker@gmail.com"
+  },
+  "metadata": {
+    "description": "Complete startup toolkit with 10 domain expert agents coordinating 42 specialized skills and 97 automation tools. AI-powered CMO, VP Eng, Head of Product, and more.",
+    "version": "2.0.0",
+    "homepage": "https://github.com/Mparker25/claude-skills",
+    "license": "MIT"
+  },
+  "plugins": [
+    {
+      "name": "marketing",
+      "source": "./marketing-plugin",
+      "description": "Complete marketing toolkit with Marketing Strategist agent",
+      "category": "marketing",
+      "keywords": ["marketing", "content", "seo", "demand-generation", "agent"]
+    },
+    {
+      "name": "executive-advisory",
+      "source": "./executive-advisory-plugin",
+      "description": "Strategic leadership with CEO and CTO expertise",
+      "category": "leadership",
+      "keywords": ["ceo", "cto", "executive", "strategy", "agent"]
+    },
+    {
+      "name": "product-management",
+      "source": "./product-management-plugin",
+      "description": "Product toolkit with RICE prioritization and OKR frameworks",
+      "category": "product",
+      "keywords": ["product-management", "agile", "strategy", "agent"]
+    },
+    {
+      "name": "ux-design",
+      "source": "./ux-design-plugin",
+      "description": "UX research and UI design systems",
+      "category": "design",
+      "keywords": ["ux", "ui", "design", "personas", "agent"]
+    },
+    {
+      "name": "project-management",
+      "source": "./project-management-plugin",
+      "description": "Agile delivery with PM, Scrum, and Atlassian tools",
+      "category": "project-management",
+      "keywords": ["project-management", "scrum", "jira", "confluence", "agent"]
+    },
+    {
+      "name": "core-engineering",
+      "source": "./core-engineering-plugin",
+      "description": "Complete engineering team from architecture to security",
+      "category": "engineering",
+      "keywords": ["architecture", "fullstack", "devops", "security", "agent"]
+    },
+    {
+      "name": "ai-ml-data-engineering",
+      "source": "./ai-ml-data-engineering-plugin",
+      "description": "AI/ML and data engineering with MLOps expertise",
+      "category": "ai-ml-data",
+      "keywords": ["data-science", "machine-learning", "mlops", "agent"]
+    },
+    {
+      "name": "regulatory-affairs",
+      "source": "./regulatory-affairs-plugin",
+      "description": "HealthTech/MedTech regulatory compliance",
+      "category": "compliance",
+      "keywords": ["regulatory", "mdr", "fda", "medical-devices", "agent"]
+    },
+    {
+      "name": "quality-management",
+      "source": "./quality-management-plugin",
+      "description": "Quality systems with ISO 13485 and ISO 27001",
+      "category": "compliance",
+      "keywords": ["quality", "qms", "iso-13485", "iso-27001", "agent"]
+    },
+    {
+      "name": "audit-compliance",
+      "source": "./audit-compliance-plugin",
+      "description": "Audit and compliance with QMS, ISMS, and GDPR",
+      "category": "compliance",
+      "keywords": ["audit", "compliance", "gdpr", "agent"]
+    }
+  ]
+}

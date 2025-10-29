@@ -1,0 +1,17 @@
+{
+  "name": "product-management",
+  "description": "Complete product toolkit with Product Lead agent coordinating RICE prioritization, agile delivery, and strategic planning",
+  "version": "2.0.0",
+  "author": {
+    "name": "Malik Bernard Parker",
+    "email": "Malik.Bernard.Parker@gmail.com"
+  },
+  "agents": [
+    "./agents/product-lead.md"
+  ],
+  "skills": [
+    "./skills/product-manager-toolkit",
+    "./skills/agile-product-owner",
+    "./skills/product-strategist"
+  ]
+}
