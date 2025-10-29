@@ -1,0 +1,18 @@
+{
+  "name": "regulatory-affairs",
+  "description": "HealthTech/MedTech compliance with Regulatory Director agent coordinating MDR, FDA, and risk management",
+  "version": "2.0.0",
+  "author": {
+    "name": "Malik Bernard Parker",
+    "email": "Malik.Bernard.Parker@gmail.com"
+  },
+  "agents": [
+    "./agents/regulatory-director.md"
+  ],
+  "skills": [
+    "./skills/regulatory-affairs-head",
+    "./skills/mdr-745-specialist",
+    "./skills/fda-consultant-specialist",
+    "./skills/risk-management-specialist"
+  ]
+}

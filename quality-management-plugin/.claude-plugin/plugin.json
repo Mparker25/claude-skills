@@ -1,0 +1,19 @@
+{
+  "name": "quality-management",
+  "description": "Quality systems with Quality Director agent coordinating ISO 13485, CAPA, and ISO 27001",
+  "version": "2.0.0",
+  "author": {
+    "name": "Malik Bernard Parker",
+    "email": "Malik.Bernard.Parker@gmail.com"
+  },
+  "agents": [
+    "./agents/quality-director.md"
+  ],
+  "skills": [
+    "./skills/quality-manager-qmr",
+    "./skills/quality-manager-qms-iso13485",
+    "./skills/capa-officer",
+    "./skills/quality-documentation-manager",
+    "./skills/information-security-manager-iso27001"
+  ]
+}

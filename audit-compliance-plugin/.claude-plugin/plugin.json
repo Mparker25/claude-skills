@@ -1,0 +1,17 @@
+{
+  "name": "audit-compliance",
+  "description": "Audit and compliance with Compliance Officer agent coordinating QMS, ISMS, and GDPR audits",
+  "version": "2.0.0",
+  "author": {
+    "name": "Malik Bernard Parker",
+    "email": "Malik.Bernard.Parker@gmail.com"
+  },
+  "agents": [
+    "./agents/compliance-officer.md"
+  ],
+  "skills": [
+    "./skills/qms-audit-expert",
+    "./skills/isms-audit-expert",
+    "./skills/gdpr-dsgvo-expert"
+  ]
+}

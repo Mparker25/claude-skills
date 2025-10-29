@@ -13,273 +13,73 @@
   "plugins": [
     {
       "name": "marketing",
-      "version": "2.0.0",
-      "description": "Content creation, demand generation, and product marketing strategy toolkit with SEO optimization and brand voice analysis. Includes Marketing Strategist agent (@marketing-strategist).",
-      "source": "./",
-      "strict": false,
+      "source": "./marketing-plugin",
+      "description": "Complete marketing toolkit with Marketing Strategist agent",
       "category": "marketing",
-      "keywords": [
-        "marketing",
-        "content",
-        "seo",
-        "brand-voice",
-        "demand-generation",
-        "product-marketing",
-        "agent"
-      ],
-      "agents": [
-        "./agents/marketing-strategist.md"
-      ],
-      "skills": [
-        "./marketing-skill/content-creator",
-        "./marketing-skill/marketing-demand-acquisition",
-        "./marketing-skill/marketing-strategy-pmm"
-      ]
+      "keywords": ["marketing", "content", "seo", "demand-generation", "agent"]
     },
     {
       "name": "executive-advisory",
-      "version": "2.0.0",
-      "description": "Strategic leadership advisory for CEO and CTO roles with decision frameworks and technical leadership guidance. Includes Executive Advisor agent (@executive-advisor).",
-      "source": "./",
-      "strict": false,
+      "source": "./executive-advisory-plugin",
+      "description": "Strategic leadership with CEO and CTO expertise",
       "category": "leadership",
-      "keywords": [
-        "ceo",
-        "cto",
-        "executive",
-        "strategy",
-        "leadership",
-        "advisory",
-        "agent"
-      ],
-      "agents": [
-        "./agents/executive-advisor.md"
-      ],
-      "skills": [
-        "./c-level-advisor/ceo-advisor",
-        "./c-level-advisor/cto-advisor"
-      ]
+      "keywords": ["ceo", "cto", "executive", "strategy", "agent"]
     },
     {
       "name": "product-management",
-      "version": "2.0.0",
-      "description": "Product management, agile delivery, and product strategy with RICE prioritization and OKR frameworks. Includes Product Lead agent (@product-lead).",
-      "source": "./",
-      "strict": false,
+      "source": "./product-management-plugin",
+      "description": "Product toolkit with RICE prioritization and OKR frameworks",
       "category": "product",
-      "keywords": [
-        "product-management",
-        "agile",
-        "product-owner",
-        "strategy",
-        "roadmap",
-        "prioritization",
-        "agent"
-      ],
-      "agents": [
-        "./agents/product-lead.md"
-      ],
-      "skills": [
-        "./product-team/product-manager-toolkit",
-        "./product-team/agile-product-owner",
-        "./product-team/product-strategist"
-      ]
+      "keywords": ["product-management", "agile", "strategy", "agent"]
     },
     {
       "name": "ux-design",
-      "version": "2.0.0",
-      "description": "UX research, UI design systems, persona generation, and design token automation. Includes Design Director agent (@design-director).",
-      "source": "./",
-      "strict": false,
+      "source": "./ux-design-plugin",
+      "description": "UX research and UI design systems",
       "category": "design",
-      "keywords": [
-        "ux",
-        "ui",
-        "design",
-        "research",
-        "personas",
-        "design-system",
-        "design-tokens",
-        "agent"
-      ],
-      "agents": [
-        "./agents/design-director.md"
-      ],
-      "skills": [
-        "./product-team/ux-researcher-designer",
-        "./product-team/ui-design-system"
-      ]
+      "keywords": ["ux", "ui", "design", "personas", "agent"]
     },
     {
       "name": "project-management",
-      "version": "2.0.0",
-      "description": "Complete project management toolkit covering PM, Scrum, Jira, Confluence, and Atlassian administration. Includes Delivery Manager agent (@delivery-manager).",
-      "source": "./",
-      "strict": false,
+      "source": "./project-management-plugin",
+      "description": "Agile delivery with PM, Scrum, and Atlassian tools",
       "category": "project-management",
-      "keywords": [
-        "project-management",
-        "scrum",
-        "jira",
-        "confluence",
-        "atlassian",
-        "agile",
-        "templates",
-        "agent"
-      ],
-      "agents": [
-        "./agents/delivery-manager.md"
-      ],
-      "skills": [
-        "./project-management/senior-pm",
-        "./project-management/scrum-master",
-        "./project-management/jira-expert",
-        "./project-management/confluence-expert",
-        "./project-management/atlassian-admin",
-        "./project-management/atlassian-templates"
-      ]
+      "keywords": ["project-management", "scrum", "jira", "confluence", "agent"]
     },
     {
       "name": "core-engineering",
-      "version": "2.0.0",
-      "description": "Complete engineering team skills from architecture to fullstack, QA, DevOps, security, and code review. Includes Engineering Lead agent (@engineering-lead).",
-      "source": "./",
-      "strict": false,
+      "source": "./core-engineering-plugin",
+      "description": "Complete engineering team from architecture to security",
       "category": "engineering",
-      "keywords": [
-        "architecture",
-        "frontend",
-        "backend",
-        "fullstack",
-        "qa",
-        "devops",
-        "security",
-        "code-review",
-        "agent"
-      ],
-      "agents": [
-        "./agents/engineering-lead.md"
-      ],
-      "skills": [
-        "./engineering-team/senior-architect",
-        "./engineering-team/senior-frontend",
-        "./engineering-team/senior-backend",
-        "./engineering-team/senior-fullstack",
-        "./engineering-team/senior-qa",
-        "./engineering-team/senior-devops",
-        "./engineering-team/senior-secops",
-        "./engineering-team/code-reviewer",
-        "./engineering-team/senior-security"
-      ]
+      "keywords": ["architecture", "fullstack", "devops", "security", "agent"]
     },
     {
       "name": "ai-ml-data-engineering",
-      "version": "2.0.0",
-      "description": "AI/ML and data engineering skills including data science, ML engineering, prompt engineering, and computer vision. Includes Data Science Lead agent (@data-science-lead).",
-      "source": "./",
-      "strict": false,
+      "source": "./ai-ml-data-engineering-plugin",
+      "description": "AI/ML and data engineering with MLOps expertise",
       "category": "ai-ml-data",
-      "keywords": [
-        "data-science",
-        "machine-learning",
-        "ai",
-        "mlops",
-        "data-engineering",
-        "prompt-engineering",
-        "computer-vision",
-        "agent"
-      ],
-      "agents": [
-        "./agents/data-science-lead.md"
-      ],
-      "skills": [
-        "./engineering-team/senior-data-scientist",
-        "./engineering-team/senior-data-engineer",
-        "./engineering-team/senior-ml-engineer",
-        "./engineering-team/senior-prompt-engineer",
-        "./engineering-team/senior-computer-vision"
-      ]
+      "keywords": ["data-science", "machine-learning", "mlops", "agent"]
     },
     {
       "name": "regulatory-affairs",
-      "version": "2.0.0",
-      "description": "HealthTech/MedTech regulatory compliance including RA management, MDR 2017/745, FDA consultation, and risk management. Includes Regulatory Director agent (@regulatory-director).",
-      "source": "./",
-      "strict": false,
+      "source": "./regulatory-affairs-plugin",
+      "description": "HealthTech/MedTech regulatory compliance",
       "category": "compliance",
-      "keywords": [
-        "regulatory-affairs",
-        "mdr",
-        "fda",
-        "medical-devices",
-        "compliance",
-        "risk-management",
-        "iso-14971",
-        "agent"
-      ],
-      "agents": [
-        "./agents/regulatory-director.md"
-      ],
-      "skills": [
-        "./ra-qm-team/regulatory-affairs-head",
-        "./ra-qm-team/mdr-745-specialist",
-        "./ra-qm-team/fda-consultant-specialist",
-        "./ra-qm-team/risk-management-specialist"
-      ]
+      "keywords": ["regulatory", "mdr", "fda", "medical-devices", "agent"]
     },
     {
       "name": "quality-management",
-      "version": "2.0.0",
-      "description": "Quality management systems covering QMR, ISO 13485, CAPA, documentation, and ISO 27001 information security. Includes Quality Director agent (@quality-director).",
-      "source": "./",
-      "strict": false,
+      "source": "./quality-management-plugin",
+      "description": "Quality systems with ISO 13485 and ISO 27001",
       "category": "compliance",
-      "keywords": [
-        "quality-management",
-        "qms",
-        "iso-13485",
-        "capa",
-        "documentation",
-        "iso-27001",
-        "information-security",
-        "agent"
-      ],
-      "agents": [
-        "./agents/quality-director.md"
-      ],
-      "skills": [
-        "./ra-qm-team/quality-manager-qmr",
-        "./ra-qm-team/quality-manager-qms-iso13485",
-        "./ra-qm-team/capa-officer",
-        "./ra-qm-team/quality-documentation-manager",
-        "./ra-qm-team/information-security-manager-iso27001"
-      ]
+      "keywords": ["quality", "qms", "iso-13485", "iso-27001", "agent"]
     },
     {
       "name": "audit-compliance",
-      "version": "2.0.0",
-      "description": "Audit and compliance expertise including QMS audit, ISMS audit, and GDPR/DSGVO compliance. Includes Compliance Officer agent (@compliance-officer).",
-      "source": "./",
-      "strict": false,
+      "source": "./audit-compliance-plugin",
+      "description": "Audit and compliance with QMS, ISMS, and GDPR",
       "category": "compliance",
-      "keywords": [
-        "audit",
-        "compliance",
-        "qms-audit",
-        "isms-audit",
-        "gdpr",
-        "dsgvo",
-        "data-protection",
-        "agent"
-      ],
-      "agents": [
-        "./agents/compliance-officer.md"
-      ],
-      "skills": [
-        "./ra-qm-team/qms-audit-expert",
-        "./ra-qm-team/isms-audit-expert",
-        "./ra-qm-team/gdpr-dsgvo-expert"
-      ]
+      "keywords": ["audit", "compliance", "gdpr", "agent"]
     }
   ]
 }
